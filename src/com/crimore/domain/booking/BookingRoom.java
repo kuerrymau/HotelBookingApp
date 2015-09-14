@@ -21,9 +21,6 @@ public class BookingRoom {
     @Column(name = "id")
     private Integer id;
 
-    @Column(name = "name")
-    private String name;
-
     public Integer getId() {
         return id;
     }
@@ -36,16 +33,16 @@ public class BookingRoom {
     @JoinColumn(name = "bookingID")
     private Booking bookingID;
 
+    public BookingRoom() {
+    }
+
+    public BookingRoom(RoomType roomType, Booking bookingID) {
+        this.roomType = roomType;
+        this.bookingID = bookingID;
+    }
+
     public void setId(Integer id) {
         this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public RoomType getRoomType() {
@@ -69,11 +66,12 @@ public class BookingRoom {
         if (this == o) return true;
         if (!(o instanceof BookingRoom)) return false;
         BookingRoom that = (BookingRoom) o;
-        return Objects.equals(name, that.name);
+        return Objects.equals(roomType, that.roomType) &&
+        Objects.equals(bookingID, that.bookingID);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name);
+        return Objects.hash(roomType, bookingID);
     }
 }

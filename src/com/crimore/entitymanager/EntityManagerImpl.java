@@ -1,4 +1,4 @@
-package com.crimore.domain.entitymanager;
+package com.crimore.entitymanager;
 
 import org.apache.log4j.Logger;
 
@@ -16,10 +16,10 @@ public class EntityManagerImpl {
 
     static {
         try {
-            entityManagerFactory = Persistence.createEntityManagerFactory("test");
+            entityManagerFactory = Persistence.createEntityManagerFactory("booking");
 
         } catch (Throwable ex) {
-            log.info("SessionFactory  initialisation failed." + ex);
+            log.error("SessionFactory  initialisation failed." + ex);
             throw new ExceptionInInitializerError(ex);
         }
     }

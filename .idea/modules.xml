@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HotelBookingApp.iml" filepath="$PROJECT_DIR$/HotelBookingApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HotelBookingDomain.iml" filepath="$PROJECT_DIR$/HotelBookingDomain.iml" />
     </modules>
   </component>
 </project>

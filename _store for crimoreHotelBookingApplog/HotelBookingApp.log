@@ -232,7 +232,7 @@
 2015-09-13_20:21:30.149/CAT | DEBUG | [main] |  | org.hibernate.ejb.packaging.AbstractJarVisitor | Java element filter matched for com.crimore.domain.booking.Booking
 2015-09-13_20:21:30.150/CAT | DEBUG | [main] |  | org.hibernate.ejb.packaging.AbstractJarVisitor | Filtering: com.crimore.domain.booking.BookingRoom
 2015-09-13_20:21:30.152/CAT | DEBUG | [main] |  | org.hibernate.ejb.packaging.AbstractJarVisitor | Java element filter matched for com.crimore.domain.booking.BookingRoom
-2015-09-13_20:21:30.152/CAT | DEBUG | [main] |  | org.hibernate.ejb.packaging.AbstractJarVisitor | Filtering: com.crimore.domain.entitymanager.EntityManagerImpl
+2015-09-13_20:21:30.152/CAT | DEBUG | [main] |  | org.hibernate.ejb.packaging.AbstractJarVisitor | Filtering: com.crimore.entitymanager.EntityManagerImpl
 2015-09-13_20:21:30.154/CAT | DEBUG | [main] |  | org.hibernate.ejb.packaging.AbstractJarVisitor | Filtering: com.crimore.domain.guest.Guest
 2015-09-13_20:21:30.156/CAT | DEBUG | [main] |  | org.hibernate.ejb.packaging.AbstractJarVisitor | Java element filter matched for com.crimore.domain.guest.Guest
 2015-09-13_20:21:30.156/CAT | DEBUG | [main] |  | org.hibernate.ejb.packaging.AbstractJarVisitor | Filtering: com.crimore.domain.hotel.Hotel

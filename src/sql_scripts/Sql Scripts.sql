@@ -63,24 +63,19 @@ INSERT INTO "Guest" VALUES(1, 'Crimore', 'Chingwenje', 'kuerrymau@gmail.com', '0
 INSERT INTO "Guest" VALUES(2, 'Andrew', 'Goboza', 'kuerrymau1@gmail.com', '0715849764');
 INSERT INTO "Guest" VALUES(3, 'Mike', 'Gabuza', 'kuerrymau@gmail2.com', '0715849764');
 
-
 INSERT INTO "RoomType" VALUES(3, 'Queen Luxury', 1, 5.00, '', 3);
 INSERT INTO "RoomType" VALUES(1, 'Double Luxury', 2, 3.00, '', 2);
 INSERT INTO "RoomType" VALUES(2, 'Single Luxury', 3, 2.00, '', 1);
 INSERT INTO "RoomType" VALUES(4, 'Single Standard', 4, 2.00, '', 1);
-
 
 INSERT INTO "Hotel" VALUES(1, 'Sun Hotels', '', '', 'Five Star', 1, 1, '1970-12-31 23:59:59', '1970-12-31 23:59:59');
 INSERT INTO "Hotel" VALUES(2, 'Protea Hotels', '', '', 'Four Star', 2, 2, '1970-12-31 23:59:59', '1970-12-31 23:59:59');
 INSERT INTO "Hotel" VALUES(3, 'Camps Bay Hotel', '', '', 'Three Star', 3, 3, '1970-12-31 23:59:59', '1970-12-31 23:59:59');
 INSERT INTO "Hotel" VALUES(4, 'Sandy Bay Hotel', '', '', 'Two Star', 1, 2, '1970-12-31 23:59:59', '1970-12-31 23:59:59');
 
-
 INSERT INTO "Location" VALUES(1, 'Cape Town', '');
 INSERT INTO "Location" VALUES(2, 'Durban', '');
 INSERT INTO "Location" VALUES(3, 'London', '');
-
-
 
 INSERT INTO "HotelType" VALUES(1, 'Hotel', '');
 INSERT INTO "HotelType" VALUES(2, 'Motel', '');

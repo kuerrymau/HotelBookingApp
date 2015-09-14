@@ -9,6 +9,13 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "RoomType")
+@NamedQuery(name="RoomType.findAvailableRooms",
+        query = "SELECT rt.name AS size, " +
+                "rt.roomRatePerDay AS cost " +
+                "FROM RoomType AS rt " +
+                "left join Hotel AS h " +
+                "ON h.id = rt.hotel.id " +
+                "where h.id NOT IN (select id from Booking)")
 @Inheritance(strategy = InheritanceType.JOINED)
 public class RoomType {
 
@@ -35,6 +42,15 @@ public class RoomType {
 
     @Column(name = "maxNumberOfPeople")
     private int maxNumberOfPeople = 2;
+
+    public RoomType() {
+    }
+
+    public RoomType(String name, Hotel hotel, float description, int roomRatePerDay) {
+        this.name = name;
+        this.roomRatePerDay = roomRatePerDay;
+        this.hotel = hotel;
+    }
 
     public Integer getId() {
         return id;
