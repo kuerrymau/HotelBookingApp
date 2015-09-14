@@ -1,0 +1,21 @@
+09-13 20:01:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "BOOKING" not found; SQL statement:
+alter table Booking drop constraint FK_ch24wpanv4gpkwelq8y13vbc1 [42102-182]
+09-13 20:01:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "BOOKING" not found; SQL statement:
+alter table Booking drop constraint FK_qv2x12ty2ph53wntuogwlqwgp [42102-182]
+09-13 20:01:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "BOOKINGROOM" not found; SQL statement:
+alter table BookingRoom drop constraint FK_gaow3m4bxr24yanptd22k18k [42102-182]
+09-13 20:01:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "BOOKINGROOM" not found; SQL statement:
+alter table BookingRoom drop constraint FK_g7ai7liwv1n8jkmcn7b6n2as3 [42102-182]
+09-13 20:01:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "HOTEL" not found; SQL statement:
+alter table Hotel drop constraint FK_hmxgawm77d76arvjrgsdw0vx1 [42102-182]
+09-13 20:01:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "HOTEL" not found; SQL statement:
+alter table Hotel drop constraint FK_q9dveb5rqqve2j100jbgaip4u [42102-182]
+09-13 20:01:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "ROOMTYPE" not found; SQL statement:
+alter table RoomType drop constraint FK_j45xvfq1lysrjqngs57rq13ga [42102-182]

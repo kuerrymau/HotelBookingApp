@@ -1,0 +1,881 @@
+2015-09-13_20:21:29.518/CAT | DEBUG | [main] |  | org.jboss.logging | Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2015-09-13_20:21:29.607/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration boolean -> org.hibernate.type.BooleanType@184e6efc
+2015-09-13_20:21:29.607/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration boolean -> org.hibernate.type.BooleanType@184e6efc
+2015-09-13_20:21:29.608/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@184e6efc
+2015-09-13_20:21:29.609/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@c710a3b
+2015-09-13_20:21:29.612/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration true_false -> org.hibernate.type.TrueFalseType@19472dca
+2015-09-13_20:21:29.614/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration yes_no -> org.hibernate.type.YesNoType@71971d92
+2015-09-13_20:21:29.619/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration byte -> org.hibernate.type.ByteType@47357842
+2015-09-13_20:21:29.619/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration byte -> org.hibernate.type.ByteType@47357842
+2015-09-13_20:21:29.619/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@47357842
+2015-09-13_20:21:29.621/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration character -> org.hibernate.type.CharacterType@22c88c75
+2015-09-13_20:21:29.621/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration char -> org.hibernate.type.CharacterType@22c88c75
+2015-09-13_20:21:29.622/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@22c88c75
+2015-09-13_20:21:29.625/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration short -> org.hibernate.type.ShortType@c184a81
+2015-09-13_20:21:29.625/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration short -> org.hibernate.type.ShortType@c184a81
+2015-09-13_20:21:29.626/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.lang.Short -> org.hibernate.type.ShortType@c184a81
+2015-09-13_20:21:29.627/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration integer -> org.hibernate.type.IntegerType@419431dc
+2015-09-13_20:21:29.627/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration int -> org.hibernate.type.IntegerType@419431dc
+2015-09-13_20:21:29.627/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@419431dc
+2015-09-13_20:21:29.631/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration long -> org.hibernate.type.LongType@102bb858
+2015-09-13_20:21:29.631/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration long -> org.hibernate.type.LongType@102bb858
+2015-09-13_20:21:29.632/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.lang.Long -> org.hibernate.type.LongType@102bb858
+2015-09-13_20:21:29.634/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration float -> org.hibernate.type.FloatType@729405ca
+2015-09-13_20:21:29.635/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration float -> org.hibernate.type.FloatType@729405ca
+2015-09-13_20:21:29.635/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.lang.Float -> org.hibernate.type.FloatType@729405ca
+2015-09-13_20:21:29.638/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration double -> org.hibernate.type.DoubleType@2e4d3abf
+2015-09-13_20:21:29.638/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration double -> org.hibernate.type.DoubleType@2e4d3abf
+2015-09-13_20:21:29.638/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@2e4d3abf
+2015-09-13_20:21:29.643/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@c949c53
+2015-09-13_20:21:29.644/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@c949c53
+2015-09-13_20:21:29.647/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration big_integer -> org.hibernate.type.BigIntegerType@7042058f
+2015-09-13_20:21:29.648/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@7042058f
+2015-09-13_20:21:29.651/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration string -> org.hibernate.type.StringType@7b8c6c98
+2015-09-13_20:21:29.651/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.lang.String -> org.hibernate.type.StringType@7b8c6c98
+2015-09-13_20:21:29.653/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration nstring -> org.hibernate.type.StringNVarcharType@3a5032fc
+2015-09-13_20:21:29.655/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@4edc8de9
+2015-09-13_20:21:29.657/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration url -> org.hibernate.type.UrlType@6ea4ffc6
+2015-09-13_20:21:29.657/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.net.URL -> org.hibernate.type.UrlType@6ea4ffc6
+2015-09-13_20:21:29.663/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration date -> org.hibernate.type.DateType@19a27795
+2015-09-13_20:21:29.663/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.sql.Date -> org.hibernate.type.DateType@19a27795
+2015-09-13_20:21:29.668/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration time -> org.hibernate.type.TimeType@3bc56049
+2015-09-13_20:21:29.668/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.sql.Time -> org.hibernate.type.TimeType@3bc56049
+2015-09-13_20:21:29.673/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration timestamp -> org.hibernate.type.TimestampType@22c249c5
+2015-09-13_20:21:29.673/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@22c249c5
+2015-09-13_20:21:29.674/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.util.Date -> org.hibernate.type.TimestampType@22c249c5
+2015-09-13_20:21:29.677/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@266901dc
+2015-09-13_20:21:29.680/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration calendar -> org.hibernate.type.CalendarType@39d9f91c
+2015-09-13_20:21:29.681/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@39d9f91c
+2015-09-13_20:21:29.681/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@39d9f91c
+2015-09-13_20:21:29.683/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@48c4c732
+2015-09-13_20:21:29.686/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration locale -> org.hibernate.type.LocaleType@17d05cdb
+2015-09-13_20:21:29.687/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@17d05cdb
+2015-09-13_20:21:29.690/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration currency -> org.hibernate.type.CurrencyType@642cb3dc
+2015-09-13_20:21:29.690/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@642cb3dc
+2015-09-13_20:21:29.693/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration timezone -> org.hibernate.type.TimeZoneType@5298db1f
+2015-09-13_20:21:29.694/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@5298db1f
+2015-09-13_20:21:29.696/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration class -> org.hibernate.type.ClassType@bddc6
+2015-09-13_20:21:29.697/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.lang.Class -> org.hibernate.type.ClassType@bddc6
+2015-09-13_20:21:29.701/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@7c520467
+2015-09-13_20:21:29.702/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@7c520467
+2015-09-13_20:21:29.703/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@6981170d
+2015-09-13_20:21:29.706/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@5f9c2347
+2015-09-13_20:21:29.710/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration binary -> org.hibernate.type.BinaryType@6897cd75
+2015-09-13_20:21:29.710/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration byte[] -> org.hibernate.type.BinaryType@6897cd75
+2015-09-13_20:21:29.710/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration [B -> org.hibernate.type.BinaryType@6897cd75
+2015-09-13_20:21:29.713/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@4deafe13
+2015-09-13_20:21:29.713/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@4deafe13
+2015-09-13_20:21:29.714/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@4deafe13
+2015-09-13_20:21:29.716/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration image -> org.hibernate.type.ImageType@60e5d9d2
+2015-09-13_20:21:29.719/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration characters -> org.hibernate.type.CharArrayType@3708beb8
+2015-09-13_20:21:29.719/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration char[] -> org.hibernate.type.CharArrayType@3708beb8
+2015-09-13_20:21:29.720/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration [C -> org.hibernate.type.CharArrayType@3708beb8
+2015-09-13_20:21:29.725/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@499aed36
+2015-09-13_20:21:29.725/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@499aed36
+2015-09-13_20:21:29.726/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@499aed36
+2015-09-13_20:21:29.728/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration text -> org.hibernate.type.TextType@64b28abf
+2015-09-13_20:21:29.731/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration ntext -> org.hibernate.type.NTextType@1d59bc95
+2015-09-13_20:21:29.744/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration blob -> org.hibernate.type.BlobType@76c5faf5
+2015-09-13_20:21:29.744/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@76c5faf5
+2015-09-13_20:21:29.746/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@331ae2ce
+2015-09-13_20:21:29.757/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration clob -> org.hibernate.type.ClobType@611de50
+2015-09-13_20:21:29.757/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@611de50
+2015-09-13_20:21:29.765/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration nclob -> org.hibernate.type.NClobType@677951c9
+2015-09-13_20:21:29.766/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@677951c9
+2015-09-13_20:21:29.767/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@7abdb4f
+2015-09-13_20:21:29.768/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@39401e69
+2015-09-13_20:21:29.770/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration serializable -> org.hibernate.type.SerializableType@2d3d0953
+2015-09-13_20:21:29.777/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration object -> org.hibernate.type.ObjectType@4a17babb
+2015-09-13_20:21:29.777/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@4a17babb
+2015-09-13_20:21:29.778/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@7a1b16bd
+2015-09-13_20:21:29.778/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@87210ec
+2015-09-13_20:21:29.779/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@78b4fa48
+2015-09-13_20:21:29.779/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@319bcae1
+2015-09-13_20:21:29.779/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@6b249338
+2015-09-13_20:21:29.779/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@2e3d787c
+2015-09-13_20:21:29.780/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@45b12c9b
+2015-09-13_20:21:29.780/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@72e797db
+2015-09-13_20:21:29.827/CAT | INFO  | [main] |  | org.hibernate.annotations.common.Version | HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-09-13_20:21:29.842/CAT | INFO  | [main] |  | org.hibernate.Version | HHH000412: Hibernate Core {4.2.8.Final}
+2015-09-13_20:21:29.845/CAT | INFO  | [main] |  | org.hibernate.cfg.Environment | HHH000206: hibernate.properties not found
+2015-09-13_20:21:29.848/CAT | INFO  | [main] |  | org.hibernate.cfg.Environment | HHH000021: Bytecode provider name : javassist
+2015-09-13_20:21:29.871/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2015-09-13_20:21:29.872/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2015-09-13_20:21:29.873/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2015-09-13_20:21:29.873/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2015-09-13_20:21:29.875/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+2015-09-13_20:21:29.876/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2015-09-13_20:21:29.879/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2015-09-13_20:21:29.880/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2015-09-13_20:21:29.880/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+2015-09-13_20:21:29.881/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2015-09-13_20:21:29.882/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2015-09-13_20:21:29.883/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2015-09-13_20:21:29.884/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2015-09-13_20:21:29.885/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2015-09-13_20:21:29.887/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2015-09-13_20:21:29.890/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration boolean -> org.hibernate.type.BooleanType@184e6efc
+2015-09-13_20:21:29.891/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration boolean -> org.hibernate.type.BooleanType@184e6efc
+2015-09-13_20:21:29.891/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@184e6efc
+2015-09-13_20:21:29.891/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@c710a3b
+2015-09-13_20:21:29.891/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration true_false -> org.hibernate.type.TrueFalseType@19472dca
+2015-09-13_20:21:29.892/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration yes_no -> org.hibernate.type.YesNoType@71971d92
+2015-09-13_20:21:29.892/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration byte -> org.hibernate.type.ByteType@47357842
+2015-09-13_20:21:29.893/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration byte -> org.hibernate.type.ByteType@47357842
+2015-09-13_20:21:29.894/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@47357842
+2015-09-13_20:21:29.894/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration character -> org.hibernate.type.CharacterType@22c88c75
+2015-09-13_20:21:29.895/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration char -> org.hibernate.type.CharacterType@22c88c75
+2015-09-13_20:21:29.895/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@22c88c75
+2015-09-13_20:21:29.895/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration short -> org.hibernate.type.ShortType@c184a81
+2015-09-13_20:21:29.896/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration short -> org.hibernate.type.ShortType@c184a81
+2015-09-13_20:21:29.896/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.lang.Short -> org.hibernate.type.ShortType@c184a81
+2015-09-13_20:21:29.896/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration integer -> org.hibernate.type.IntegerType@419431dc
+2015-09-13_20:21:29.897/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration int -> org.hibernate.type.IntegerType@419431dc
+2015-09-13_20:21:29.897/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@419431dc
+2015-09-13_20:21:29.897/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration long -> org.hibernate.type.LongType@102bb858
+2015-09-13_20:21:29.897/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration long -> org.hibernate.type.LongType@102bb858
+2015-09-13_20:21:29.898/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.lang.Long -> org.hibernate.type.LongType@102bb858
+2015-09-13_20:21:29.898/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration float -> org.hibernate.type.FloatType@729405ca
+2015-09-13_20:21:29.898/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration float -> org.hibernate.type.FloatType@729405ca
+2015-09-13_20:21:29.899/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.lang.Float -> org.hibernate.type.FloatType@729405ca
+2015-09-13_20:21:29.899/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration double -> org.hibernate.type.DoubleType@2e4d3abf
+2015-09-13_20:21:29.899/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration double -> org.hibernate.type.DoubleType@2e4d3abf
+2015-09-13_20:21:29.900/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@2e4d3abf
+2015-09-13_20:21:29.900/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@c949c53
+2015-09-13_20:21:29.900/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@c949c53
+2015-09-13_20:21:29.901/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration big_integer -> org.hibernate.type.BigIntegerType@7042058f
+2015-09-13_20:21:29.901/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@7042058f
+2015-09-13_20:21:29.901/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration string -> org.hibernate.type.StringType@7b8c6c98
+2015-09-13_20:21:29.902/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.lang.String -> org.hibernate.type.StringType@7b8c6c98
+2015-09-13_20:21:29.902/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration nstring -> org.hibernate.type.StringNVarcharType@3a5032fc
+2015-09-13_20:21:29.902/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@4edc8de9
+2015-09-13_20:21:29.902/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration url -> org.hibernate.type.UrlType@6ea4ffc6
+2015-09-13_20:21:29.903/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.net.URL -> org.hibernate.type.UrlType@6ea4ffc6
+2015-09-13_20:21:29.903/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration date -> org.hibernate.type.DateType@19a27795
+2015-09-13_20:21:29.903/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.sql.Date -> org.hibernate.type.DateType@19a27795
+2015-09-13_20:21:29.904/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration time -> org.hibernate.type.TimeType@3bc56049
+2015-09-13_20:21:29.904/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.sql.Time -> org.hibernate.type.TimeType@3bc56049
+2015-09-13_20:21:29.904/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration timestamp -> org.hibernate.type.TimestampType@22c249c5
+2015-09-13_20:21:29.905/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@22c249c5
+2015-09-13_20:21:29.905/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.util.Date -> org.hibernate.type.TimestampType@22c249c5
+2015-09-13_20:21:29.905/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@266901dc
+2015-09-13_20:21:29.906/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration calendar -> org.hibernate.type.CalendarType@39d9f91c
+2015-09-13_20:21:29.906/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@39d9f91c
+2015-09-13_20:21:29.906/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@39d9f91c
+2015-09-13_20:21:29.906/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@48c4c732
+2015-09-13_20:21:29.906/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration locale -> org.hibernate.type.LocaleType@17d05cdb
+2015-09-13_20:21:29.907/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@17d05cdb
+2015-09-13_20:21:29.907/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration currency -> org.hibernate.type.CurrencyType@642cb3dc
+2015-09-13_20:21:29.907/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@642cb3dc
+2015-09-13_20:21:29.907/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration timezone -> org.hibernate.type.TimeZoneType@5298db1f
+2015-09-13_20:21:29.907/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@5298db1f
+2015-09-13_20:21:29.908/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration class -> org.hibernate.type.ClassType@bddc6
+2015-09-13_20:21:29.908/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.lang.Class -> org.hibernate.type.ClassType@bddc6
+2015-09-13_20:21:29.908/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@7c520467
+2015-09-13_20:21:29.908/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@7c520467
+2015-09-13_20:21:29.909/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@6981170d
+2015-09-13_20:21:29.909/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@5f9c2347
+2015-09-13_20:21:29.909/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration binary -> org.hibernate.type.BinaryType@6897cd75
+2015-09-13_20:21:29.909/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration byte[] -> org.hibernate.type.BinaryType@6897cd75
+2015-09-13_20:21:29.909/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration [B -> org.hibernate.type.BinaryType@6897cd75
+2015-09-13_20:21:29.910/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@4deafe13
+2015-09-13_20:21:29.910/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@4deafe13
+2015-09-13_20:21:29.910/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@4deafe13
+2015-09-13_20:21:29.910/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration image -> org.hibernate.type.ImageType@60e5d9d2
+2015-09-13_20:21:29.910/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration characters -> org.hibernate.type.CharArrayType@3708beb8
+2015-09-13_20:21:29.911/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration char[] -> org.hibernate.type.CharArrayType@3708beb8
+2015-09-13_20:21:29.911/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration [C -> org.hibernate.type.CharArrayType@3708beb8
+2015-09-13_20:21:29.911/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@499aed36
+2015-09-13_20:21:29.911/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@499aed36
+2015-09-13_20:21:29.912/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@499aed36
+2015-09-13_20:21:29.912/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration text -> org.hibernate.type.TextType@64b28abf
+2015-09-13_20:21:29.912/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration ntext -> org.hibernate.type.NTextType@1d59bc95
+2015-09-13_20:21:29.912/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration blob -> org.hibernate.type.BlobType@76c5faf5
+2015-09-13_20:21:29.912/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@76c5faf5
+2015-09-13_20:21:29.913/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@331ae2ce
+2015-09-13_20:21:29.913/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration clob -> org.hibernate.type.ClobType@611de50
+2015-09-13_20:21:29.913/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@611de50
+2015-09-13_20:21:29.913/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration nclob -> org.hibernate.type.NClobType@677951c9
+2015-09-13_20:21:29.914/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@677951c9
+2015-09-13_20:21:29.914/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@7abdb4f
+2015-09-13_20:21:29.914/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@39401e69
+2015-09-13_20:21:29.914/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration serializable -> org.hibernate.type.SerializableType@2d3d0953
+2015-09-13_20:21:29.914/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration object -> org.hibernate.type.ObjectType@4a17babb
+2015-09-13_20:21:29.915/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@4a17babb
+2015-09-13_20:21:29.915/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@387162d9
+2015-09-13_20:21:29.915/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@1c10b182
+2015-09-13_20:21:29.915/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@bf5dc33
+2015-09-13_20:21:29.915/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@3a4b9e67
+2015-09-13_20:21:29.916/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@3a8c9a17
+2015-09-13_20:21:29.916/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@64d87a08
+2015-09-13_20:21:29.916/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@4033d6f1
+2015-09-13_20:21:29.916/CAT | DEBUG | [main] |  | org.hibernate.type.BasicTypeRegistry | Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@b648925
+2015-09-13_20:21:29.917/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2015-09-13_20:21:29.917/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2015-09-13_20:21:29.917/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2015-09-13_20:21:29.917/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2015-09-13_20:21:29.918/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+2015-09-13_20:21:29.918/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2015-09-13_20:21:29.918/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2015-09-13_20:21:29.918/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2015-09-13_20:21:29.918/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+2015-09-13_20:21:29.919/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2015-09-13_20:21:29.919/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2015-09-13_20:21:29.919/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2015-09-13_20:21:29.919/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2015-09-13_20:21:29.920/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2015-09-13_20:21:29.920/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2015-09-13_20:21:29.920/CAT | DEBUG | [main] |  | org.hibernate.ejb.Ejb3Configuration | Look up for persistence unit: test
+2015-09-13_20:21:30.083/CAT | DEBUG | [main] |  | org.hibernate.ejb.Ejb3Configuration | Detect class: true; detect hbm: true
+2015-09-13_20:21:30.092/CAT | DEBUG | [main] |  | org.hibernate.ejb.packaging.AbstractJarVisitor | Searching mapped entities in jar/par: file:/C:/_store%20for%20crimore/HotelBookingApp/out/production/HotelBookingApp
+2015-09-13_20:21:30.093/CAT | DEBUG | [main] |  | org.hibernate.ejb.packaging.AbstractJarVisitor | Filtering: com.crimore.domain.booking.Booking
+2015-09-13_20:21:30.149/CAT | DEBUG | [main] |  | org.hibernate.ejb.packaging.AbstractJarVisitor | Java element filter matched for com.crimore.domain.booking.Booking
+2015-09-13_20:21:30.150/CAT | DEBUG | [main] |  | org.hibernate.ejb.packaging.AbstractJarVisitor | Filtering: com.crimore.domain.booking.BookingRoom
+2015-09-13_20:21:30.152/CAT | DEBUG | [main] |  | org.hibernate.ejb.packaging.AbstractJarVisitor | Java element filter matched for com.crimore.domain.booking.BookingRoom
+2015-09-13_20:21:30.152/CAT | DEBUG | [main] |  | org.hibernate.ejb.packaging.AbstractJarVisitor | Filtering: com.crimore.domain.entitymanager.EntityManagerImpl
+2015-09-13_20:21:30.154/CAT | DEBUG | [main] |  | org.hibernate.ejb.packaging.AbstractJarVisitor | Filtering: com.crimore.domain.guest.Guest
+2015-09-13_20:21:30.156/CAT | DEBUG | [main] |  | org.hibernate.ejb.packaging.AbstractJarVisitor | Java element filter matched for com.crimore.domain.guest.Guest
+2015-09-13_20:21:30.156/CAT | DEBUG | [main] |  | org.hibernate.ejb.packaging.AbstractJarVisitor | Filtering: com.crimore.domain.hotel.Hotel
+2015-09-13_20:21:30.158/CAT | DEBUG | [main] |  | org.hibernate.ejb.packaging.AbstractJarVisitor | Java element filter matched for com.crimore.domain.hotel.Hotel
+2015-09-13_20:21:30.159/CAT | DEBUG | [main] |  | org.hibernate.ejb.packaging.AbstractJarVisitor | Filtering: com.crimore.domain.hotel.HotelType
+2015-09-13_20:21:30.160/CAT | DEBUG | [main] |  | org.hibernate.ejb.packaging.AbstractJarVisitor | Java element filter matched for com.crimore.domain.hotel.HotelType
+2015-09-13_20:21:30.161/CAT | DEBUG | [main] |  | org.hibernate.ejb.packaging.AbstractJarVisitor | Filtering: com.crimore.domain.hotel.RoomType
+2015-09-13_20:21:30.163/CAT | DEBUG | [main] |  | org.hibernate.ejb.packaging.AbstractJarVisitor | Java element filter matched for com.crimore.domain.hotel.RoomType
+2015-09-13_20:21:30.164/CAT | DEBUG | [main] |  | org.hibernate.ejb.packaging.AbstractJarVisitor | Filtering: com.crimore.domain.location.Location
+2015-09-13_20:21:30.165/CAT | DEBUG | [main] |  | org.hibernate.ejb.packaging.AbstractJarVisitor | Java element filter matched for com.crimore.domain.location.Location
+2015-09-13_20:21:30.165/CAT | DEBUG | [main] |  | org.hibernate.ejb.packaging.AbstractJarVisitor | Filtering: com.crimore.JPATest
+2015-09-13_20:21:30.166/CAT | DEBUG | [main] |  | org.hibernate.ejb.packaging.AbstractJarVisitor | Filtering: com.crimore.service.booking.BookingManager
+2015-09-13_20:21:30.167/CAT | DEBUG | [main] |  | org.hibernate.ejb.packaging.AbstractJarVisitor | Filtering: com.crimore.service.booking.impl.BookingManagerImpl
+2015-09-13_20:21:30.169/CAT | DEBUG | [main] |  | org.hibernate.ejb.packaging.AbstractJarVisitor | Filtering: com.crimore.service.payment.impl.PaymentManagerImpl
+2015-09-13_20:21:30.169/CAT | DEBUG | [main] |  | org.hibernate.ejb.packaging.AbstractJarVisitor | Filtering: com.crimore.service.payment.PaymentManager
+2015-09-13_20:21:30.188/CAT | DEBUG | [main] |  | org.hibernate.ejb.Ejb3Configuration | Detect class: true; detect hbm: true
+2015-09-13_20:21:30.189/CAT | DEBUG | [main] |  | org.hibernate.ejb.Ejb3Configuration | Creating Factory: test
+2015-09-13_20:21:30.218/CAT | DEBUG | [main] |  | org.hibernate.integrator.internal.IntegratorServiceImpl | Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2015-09-13_20:21:30.219/CAT | DEBUG | [main] |  | org.hibernate.integrator.internal.IntegratorServiceImpl | Adding Integrator [org.hibernate.ejb.event.JpaIntegrator].
+2015-09-13_20:21:30.276/CAT | DEBUG | [main] |  | org.hibernate.ejb.util.NamingHelper | No JNDI name configured for binding Ejb3Configuration
+2015-09-13_20:21:30.290/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Preparing to build session factory with filters : {}
+2015-09-13_20:21:30.319/CAT | INFO  | [main] |  | org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl | HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-09-13_20:21:30.325/CAT | INFO  | [main] |  | org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl | HHH000115: Hibernate connection pool size: 1
+2015-09-13_20:21:30.325/CAT | INFO  | [main] |  | org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl | HHH000006: Autocommit mode: true
+2015-09-13_20:21:30.326/CAT | INFO  | [main] |  | org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl | HHH000401: using driver [org.h2.Driver] at URL [jdbc:h2:./booking;DATABASE_TO_UPPER=false]
+2015-09-13_20:21:30.326/CAT | INFO  | [main] |  | org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl | HHH000046: Connection properties: {user=sa, autocommit=true, release_mode=auto}
+2015-09-13_20:21:30.384/CAT | INFO  | [main] |  | org.hibernate.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2015-09-13_20:21:30.402/CAT | INFO  | [main] |  | org.hibernate.engine.jdbc.internal.LobCreatorBuilder | HHH000422: Disabling contextual LOB creation as connection was null
+2015-09-13_20:21:30.473/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing hbm.xml files
+2015-09-13_20:21:30.473/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Process annotated classes
+2015-09-13_20:21:30.479/CAT | DEBUG | [main] |  | org.hibernate.cfg.AnnotationBinder | Binding entity from annotated class: com.crimore.domain.hotel.Hotel
+2015-09-13_20:21:30.516/CAT | DEBUG | [main] |  | org.hibernate.cfg.AnnotationBinder | No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+2015-09-13_20:21:30.530/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.EntityBinder | Import with entity name Hotel
+2015-09-13_20:21:30.536/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.EntityBinder | Bind entity com.crimore.domain.hotel.Hotel on table Hotel
+2015-09-13_20:21:30.598/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hotel), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.605/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | MetadataSourceProcessor property id with lazy=false
+2015-09-13_20:21:30.610/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | building SimpleValue for id
+2015-09-13_20:21:30.613/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property id
+2015-09-13_20:21:30.621/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hotel), mappingColumn=checkInTime, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.622/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | MetadataSourceProcessor property checkInTime with lazy=false
+2015-09-13_20:21:30.622/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | building SimpleValue for checkInTime
+2015-09-13_20:21:30.622/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property checkInTime
+2015-09-13_20:21:30.623/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hotel), mappingColumn=checkOutTime, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.623/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | MetadataSourceProcessor property checkOutTime with lazy=false
+2015-09-13_20:21:30.624/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | building SimpleValue for checkOutTime
+2015-09-13_20:21:30.624/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property checkOutTime
+2015-09-13_20:21:30.624/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hotel), mappingColumn=description, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.624/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | MetadataSourceProcessor property description with lazy=false
+2015-09-13_20:21:30.625/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | building SimpleValue for description
+2015-09-13_20:21:30.625/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property description
+2015-09-13_20:21:30.625/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hotel), mappingColumn=emailAddress, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.626/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | MetadataSourceProcessor property emailAddress with lazy=false
+2015-09-13_20:21:30.626/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | building SimpleValue for emailAddress
+2015-09-13_20:21:30.626/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property emailAddress
+2015-09-13_20:21:30.627/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hotel), mappingColumn=grade, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.627/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | MetadataSourceProcessor property grade with lazy=false
+2015-09-13_20:21:30.627/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | building SimpleValue for grade
+2015-09-13_20:21:30.627/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property grade
+2015-09-13_20:21:30.629/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3JoinColumn{logicalColumnName='hotelTypeID', referencedColumn='', mappedBy=''}
+2015-09-13_20:21:30.630/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hotel), mappingColumn=hotelType, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.636/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property hotelType
+2015-09-13_20:21:30.636/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3JoinColumn{logicalColumnName='locatedInID', referencedColumn='', mappedBy=''}
+2015-09-13_20:21:30.637/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hotel), mappingColumn=locatedIn, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.637/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property locatedIn
+2015-09-13_20:21:30.637/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hotel), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.637/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | MetadataSourceProcessor property name with lazy=false
+2015-09-13_20:21:30.638/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | building SimpleValue for name
+2015-09-13_20:21:30.638/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property name
+2015-09-13_20:21:30.640/CAT | DEBUG | [main] |  | org.hibernate.cfg.AnnotationBinder | Binding entity from annotated class: com.crimore.domain.hotel.RoomType
+2015-09-13_20:21:30.641/CAT | DEBUG | [main] |  | org.hibernate.cfg.AnnotationBinder | No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+2015-09-13_20:21:30.641/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.EntityBinder | Import with entity name RoomType
+2015-09-13_20:21:30.641/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.EntityBinder | Bind entity com.crimore.domain.hotel.RoomType on table RoomType
+2015-09-13_20:21:30.646/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(RoomType), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.646/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | MetadataSourceProcessor property id with lazy=false
+2015-09-13_20:21:30.646/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | building SimpleValue for id
+2015-09-13_20:21:30.647/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property id
+2015-09-13_20:21:30.647/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(RoomType), mappingColumn=description, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.647/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | MetadataSourceProcessor property description with lazy=false
+2015-09-13_20:21:30.647/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | building SimpleValue for description
+2015-09-13_20:21:30.648/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property description
+2015-09-13_20:21:30.648/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3JoinColumn{logicalColumnName='hotelID', referencedColumn='', mappedBy=''}
+2015-09-13_20:21:30.648/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(RoomType), mappingColumn=hotel, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.648/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property hotel
+2015-09-13_20:21:30.649/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(RoomType), mappingColumn=maxNumberOfPeople, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.649/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | MetadataSourceProcessor property maxNumberOfPeople with lazy=false
+2015-09-13_20:21:30.649/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | building SimpleValue for maxNumberOfPeople
+2015-09-13_20:21:30.649/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property maxNumberOfPeople
+2015-09-13_20:21:30.650/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(RoomType), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.650/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | MetadataSourceProcessor property name with lazy=false
+2015-09-13_20:21:30.650/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | building SimpleValue for name
+2015-09-13_20:21:30.651/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property name
+2015-09-13_20:21:30.651/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(RoomType), mappingColumn=roomRatePerDay, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.651/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | MetadataSourceProcessor property roomRatePerDay with lazy=false
+2015-09-13_20:21:30.652/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | building SimpleValue for roomRatePerDay
+2015-09-13_20:21:30.652/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property roomRatePerDay
+2015-09-13_20:21:30.652/CAT | DEBUG | [main] |  | org.hibernate.cfg.AnnotationBinder | Binding entity from annotated class: com.crimore.domain.hotel.HotelType
+2015-09-13_20:21:30.652/CAT | DEBUG | [main] |  | org.hibernate.cfg.AnnotationBinder | No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+2015-09-13_20:21:30.653/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.EntityBinder | Import with entity name HotelType
+2015-09-13_20:21:30.653/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.EntityBinder | Bind entity com.crimore.domain.hotel.HotelType on table HotelType
+2015-09-13_20:21:30.655/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(HotelType), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.656/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | MetadataSourceProcessor property id with lazy=false
+2015-09-13_20:21:30.656/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | building SimpleValue for id
+2015-09-13_20:21:30.656/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property id
+2015-09-13_20:21:30.657/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(HotelType), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.657/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | MetadataSourceProcessor property name with lazy=false
+2015-09-13_20:21:30.657/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | building SimpleValue for name
+2015-09-13_20:21:30.658/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property name
+2015-09-13_20:21:30.658/CAT | DEBUG | [main] |  | org.hibernate.cfg.AnnotationBinder | Binding entity from annotated class: com.crimore.domain.booking.Booking
+2015-09-13_20:21:30.658/CAT | DEBUG | [main] |  | org.hibernate.cfg.AnnotationBinder | No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+2015-09-13_20:21:30.659/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.EntityBinder | Import with entity name Booking
+2015-09-13_20:21:30.659/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.EntityBinder | Bind entity com.crimore.domain.booking.Booking on table Booking
+2015-09-13_20:21:30.670/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Booking), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.670/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | MetadataSourceProcessor property id with lazy=false
+2015-09-13_20:21:30.671/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | building SimpleValue for id
+2015-09-13_20:21:30.671/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property id
+2015-09-13_20:21:30.672/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Booking), mappingColumn=arrivalDate, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.672/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | MetadataSourceProcessor property arrivalDate with lazy=false
+2015-09-13_20:21:30.673/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | building SimpleValue for arrivalDate
+2015-09-13_20:21:30.673/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property arrivalDate
+2015-09-13_20:21:30.674/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Booking), mappingColumn=comments, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.674/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | MetadataSourceProcessor property comments with lazy=false
+2015-09-13_20:21:30.674/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | building SimpleValue for comments
+2015-09-13_20:21:30.674/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property comments
+2015-09-13_20:21:30.674/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Booking), mappingColumn=departureDate, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.675/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | MetadataSourceProcessor property departureDate with lazy=false
+2015-09-13_20:21:30.675/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | building SimpleValue for departureDate
+2015-09-13_20:21:30.675/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property departureDate
+2015-09-13_20:21:30.675/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3JoinColumn{logicalColumnName='guestID', referencedColumn='', mappedBy=''}
+2015-09-13_20:21:30.675/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Booking), mappingColumn=guest, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.676/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property guest
+2015-09-13_20:21:30.676/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3JoinColumn{logicalColumnName='hotelID', referencedColumn='', mappedBy=''}
+2015-09-13_20:21:30.676/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Booking), mappingColumn=hotel, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.677/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property hotel
+2015-09-13_20:21:30.677/CAT | DEBUG | [main] |  | org.hibernate.cfg.AnnotationBinder | Binding entity from annotated class: com.crimore.domain.booking.BookingRoom
+2015-09-13_20:21:30.677/CAT | DEBUG | [main] |  | org.hibernate.cfg.AnnotationBinder | No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+2015-09-13_20:21:30.677/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.EntityBinder | Import with entity name BookingRoom
+2015-09-13_20:21:30.678/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.EntityBinder | Bind entity com.crimore.domain.booking.BookingRoom on table BookingRoom
+2015-09-13_20:21:30.681/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BookingRoom), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.681/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | MetadataSourceProcessor property id with lazy=false
+2015-09-13_20:21:30.681/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | building SimpleValue for id
+2015-09-13_20:21:30.682/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property id
+2015-09-13_20:21:30.682/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3JoinColumn{logicalColumnName='bookingID', referencedColumn='', mappedBy=''}
+2015-09-13_20:21:30.682/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BookingRoom), mappingColumn=bookingID, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.683/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property bookingID
+2015-09-13_20:21:30.683/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BookingRoom), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.684/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | MetadataSourceProcessor property name with lazy=false
+2015-09-13_20:21:30.684/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | building SimpleValue for name
+2015-09-13_20:21:30.684/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property name
+2015-09-13_20:21:30.684/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3JoinColumn{logicalColumnName='roomTypeID', referencedColumn='', mappedBy=''}
+2015-09-13_20:21:30.685/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BookingRoom), mappingColumn=roomType, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.685/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property roomType
+2015-09-13_20:21:30.686/CAT | DEBUG | [main] |  | org.hibernate.cfg.AnnotationBinder | Binding entity from annotated class: com.crimore.domain.guest.Guest
+2015-09-13_20:21:30.686/CAT | DEBUG | [main] |  | org.hibernate.cfg.AnnotationBinder | No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+2015-09-13_20:21:30.686/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.EntityBinder | Import with entity name Guest
+2015-09-13_20:21:30.687/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.EntityBinder | Bind entity com.crimore.domain.guest.Guest on table Guest
+2015-09-13_20:21:30.689/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Guest), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.689/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | MetadataSourceProcessor property id with lazy=false
+2015-09-13_20:21:30.690/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | building SimpleValue for id
+2015-09-13_20:21:30.690/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property id
+2015-09-13_20:21:30.690/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Guest), mappingColumn=emailAddress, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.690/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | MetadataSourceProcessor property emailAddress with lazy=false
+2015-09-13_20:21:30.691/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | building SimpleValue for emailAddress
+2015-09-13_20:21:30.691/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property emailAddress
+2015-09-13_20:21:30.691/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Guest), mappingColumn=firstName, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.691/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | MetadataSourceProcessor property firstName with lazy=false
+2015-09-13_20:21:30.692/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | building SimpleValue for firstName
+2015-09-13_20:21:30.692/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property firstName
+2015-09-13_20:21:30.692/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Guest), mappingColumn=surname, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.692/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | MetadataSourceProcessor property surname with lazy=false
+2015-09-13_20:21:30.693/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | building SimpleValue for surname
+2015-09-13_20:21:30.693/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property surname
+2015-09-13_20:21:30.693/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Guest), mappingColumn=telephoneNumber, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.693/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | MetadataSourceProcessor property telephoneNumber with lazy=false
+2015-09-13_20:21:30.693/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | building SimpleValue for telephoneNumber
+2015-09-13_20:21:30.694/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property telephoneNumber
+2015-09-13_20:21:30.694/CAT | DEBUG | [main] |  | org.hibernate.cfg.AnnotationBinder | Binding entity from annotated class: com.crimore.domain.location.Location
+2015-09-13_20:21:30.694/CAT | DEBUG | [main] |  | org.hibernate.cfg.AnnotationBinder | No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+2015-09-13_20:21:30.694/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.EntityBinder | Import with entity name Location
+2015-09-13_20:21:30.695/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.EntityBinder | Bind entity com.crimore.domain.location.Location on table Location
+2015-09-13_20:21:30.696/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Location), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.696/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | MetadataSourceProcessor property id with lazy=false
+2015-09-13_20:21:30.696/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | building SimpleValue for id
+2015-09-13_20:21:30.697/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property id
+2015-09-13_20:21:30.697/CAT | DEBUG | [main] |  | org.hibernate.cfg.Ejb3Column | Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Location), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2015-09-13_20:21:30.697/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | MetadataSourceProcessor property name with lazy=false
+2015-09-13_20:21:30.697/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | building SimpleValue for name
+2015-09-13_20:21:30.697/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.PropertyBinder | Building property name
+2015-09-13_20:21:30.698/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | Setting SimpleValue typeName for id
+2015-09-13_20:21:30.699/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | Setting SimpleValue typeName for checkInTime
+2015-09-13_20:21:30.699/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | Setting SimpleValue typeName for checkOutTime
+2015-09-13_20:21:30.699/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | Setting SimpleValue typeName for description
+2015-09-13_20:21:30.699/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | Setting SimpleValue typeName for emailAddress
+2015-09-13_20:21:30.699/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | Setting SimpleValue typeName for grade
+2015-09-13_20:21:30.700/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | Setting SimpleValue typeName for name
+2015-09-13_20:21:30.700/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | Setting SimpleValue typeName for id
+2015-09-13_20:21:30.700/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | Setting SimpleValue typeName for description
+2015-09-13_20:21:30.700/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | Setting SimpleValue typeName for maxNumberOfPeople
+2015-09-13_20:21:30.700/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | Setting SimpleValue typeName for name
+2015-09-13_20:21:30.700/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | Setting SimpleValue typeName for roomRatePerDay
+2015-09-13_20:21:30.700/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | Setting SimpleValue typeName for id
+2015-09-13_20:21:30.701/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | Setting SimpleValue typeName for name
+2015-09-13_20:21:30.701/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | Setting SimpleValue typeName for id
+2015-09-13_20:21:30.701/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | Setting SimpleValue typeName for arrivalDate
+2015-09-13_20:21:30.701/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | Setting SimpleValue typeName for comments
+2015-09-13_20:21:30.701/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | Setting SimpleValue typeName for departureDate
+2015-09-13_20:21:30.702/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | Setting SimpleValue typeName for id
+2015-09-13_20:21:30.702/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | Setting SimpleValue typeName for name
+2015-09-13_20:21:30.702/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | Setting SimpleValue typeName for id
+2015-09-13_20:21:30.702/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | Setting SimpleValue typeName for emailAddress
+2015-09-13_20:21:30.702/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | Setting SimpleValue typeName for firstName
+2015-09-13_20:21:30.702/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | Setting SimpleValue typeName for surname
+2015-09-13_20:21:30.702/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | Setting SimpleValue typeName for telephoneNumber
+2015-09-13_20:21:30.703/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | Setting SimpleValue typeName for id
+2015-09-13_20:21:30.703/CAT | DEBUG | [main] |  | org.hibernate.cfg.annotations.SimpleValueBinder | Setting SimpleValue typeName for name
+2015-09-13_20:21:30.704/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing fk mappings (*ToOne and JoinedSubclass)
+2015-09-13_20:21:30.736/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing extends queue
+2015-09-13_20:21:30.736/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing extends queue
+2015-09-13_20:21:30.736/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing collection mappings
+2015-09-13_20:21:30.737/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing native query and ResultSetMapping mappings
+2015-09-13_20:21:30.737/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing association property references
+2015-09-13_20:21:30.737/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Creating tables' unique integer identifiers
+2015-09-13_20:21:30.737/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing foreign key constraints
+2015-09-13_20:21:30.737/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.guest.Guest
+2015-09-13_20:21:30.737/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.hotel.Hotel
+2015-09-13_20:21:30.738/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.booking.Booking
+2015-09-13_20:21:30.738/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.hotel.RoomType
+2015-09-13_20:21:30.738/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.hotel.HotelType
+2015-09-13_20:21:30.738/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.location.Location
+2015-09-13_20:21:30.739/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.hotel.Hotel
+2015-09-13_20:21:30.762/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | Automatic flush during beforeCompletion(): disabled
+2015-09-13_20:21:30.762/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | Automatic session close at end of transaction: disabled
+2015-09-13_20:21:30.762/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | Scrollable result sets: disabled
+2015-09-13_20:21:30.763/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | Wrap result sets: disabled
+2015-09-13_20:21:30.763/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | JDBC3 getGeneratedKeys(): disabled
+2015-09-13_20:21:30.763/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | multi-tenancy strategy : NONE
+2015-09-13_20:21:30.763/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | Connection release mode: auto
+2015-09-13_20:21:30.764/CAT | INFO  | [main] |  | org.hibernate.engine.transaction.internal.TransactionFactoryInitiator | HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2015-09-13_20:21:30.770/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | Using BatchFetchStyle : LEGACY
+2015-09-13_20:21:30.770/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | Default batch fetch size: 1
+2015-09-13_20:21:30.770/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | Generate SQL with comments: disabled
+2015-09-13_20:21:30.771/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | Order SQL updates by primary key: disabled
+2015-09-13_20:21:30.771/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | Order SQL inserts for batching: disabled
+2015-09-13_20:21:30.771/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | Default null ordering: none
+2015-09-13_20:21:30.773/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | Query translator: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory
+2015-09-13_20:21:30.777/CAT | INFO  | [main] |  | org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory | HHH000397: Using ASTQueryTranslatorFactory
+2015-09-13_20:21:30.777/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | Query language substitutions: {}
+2015-09-13_20:21:30.777/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | JPA-QL strict compliance: enabled
+2015-09-13_20:21:30.777/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | Second-level cache: enabled
+2015-09-13_20:21:30.778/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | Query cache: disabled
+2015-09-13_20:21:30.778/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2015-09-13_20:21:30.780/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | org.hibernate.cache.internal.NoCachingRegionFactory did not provide constructor accepting java.util.Properties; attempting no-arg constructor.
+2015-09-13_20:21:30.780/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | Optimize cache for minimal puts: disabled
+2015-09-13_20:21:30.781/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | Structured second-level cache entries: disabled
+2015-09-13_20:21:30.781/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | Second-level cache direct-reference entries: disabled
+2015-09-13_20:21:30.781/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | Statistics: disabled
+2015-09-13_20:21:30.781/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | Deleted entity synthetic identifier rollback: disabled
+2015-09-13_20:21:30.782/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | Default entity-mode: pojo
+2015-09-13_20:21:30.782/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | Named query checking : enabled
+2015-09-13_20:21:30.782/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2015-09-13_20:21:30.782/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | Allow initialization of lazy state outside session : : disabled
+2015-09-13_20:21:30.782/CAT | DEBUG | [main] |  | org.hibernate.cfg.SettingsFactory | JTA Track by Thread: enabled
+2015-09-13_20:21:30.795/CAT | DEBUG | [main] |  | org.hibernate.internal.SessionFactoryImpl | Building session factory
+2015-09-13_20:21:30.816/CAT | DEBUG | [main] |  | org.hibernate.internal.SessionFactoryImpl | Session factory constructed with filter configurations : {}
+2015-09-13_20:21:30.817/CAT | DEBUG | [main] |  | org.hibernate.internal.SessionFactoryImpl | Instantiating session factory with properties: {java.vendor=Oracle Corporation, show_sql=true, sun.java.launcher=SUN_STANDARD, hibernate.connection.url=jdbc:h2:./booking;DATABASE_TO_UPPER=false, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, hibernate.ejb.discard_pc_on_close=false, hibernate.transaction.flush_before_completion=false, os.name=Windows 8, sun.boot.class.path=C:\Program Files\Java\jdk1.7.0_51\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_51\jre\classes, hibernate.temp.use_jdbc_metadata_defaults=false, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.7.0_51-b13, hibernate.connection.autocommit=true, javax.persistence.jdbc.user=sa, user.name=cchingwenje, hibernate.connection.release_mode=auto, idea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\bin, user.language=en, sun.boot.library.path=C:\Program Files\Java\jdk1.7.0_51\jre\bin, java.version=1.7.0_51, user.timezone=Africa/Harare, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jdk1.7.0_51\jre\lib\endorsed, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, file.separator=\, java.specification.name=Java Platform API Specification, java.class.version=51.0, user.country=ZA, java.home=C:\Program Files\Java\jdk1.7.0_51\jre, java.vm.info=mixed mode, os.version=6.2, hibernate.transaction.factory_class=org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory, hibernate.query.jpaql_strict_compliance=true, path.separator=;, java.vm.version=24.51-b03, javax.persistence.jdbc.url=jdbc:h2:./booking;DATABASE_TO_UPPER=false, user.variant=, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, hibernate.connection.username=sa, user.script=, user.home=C:\Users\cchingwenje, java.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=create-drop, java.library.path=C:\Program Files\Java\jdk1.7.0_51\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\OpenVPN\bin;C:\Program Files (x86)\GitExtensions\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Nodejs\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\ROR\bin;C:\tools\apache-maven-3.1.0\bin;C:\Program Files\Java\jdk1.7.0_25\bin;C:\Users\cchingwenje\AppData\Roaming\npm;., java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=org.h2.Driver, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.H2Dialect, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=com.intellij.rt.execution.application.AppMain com.crimore.JPATest, java.class.path=C:\Program Files\Java\jdk1.7.0_51\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jfxrt.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\ext\zipfs.jar;C:\_store for crimore\HotelBookingApp\out\production\HotelBookingApp;C:\_store for crimore\HotelBookingApp\lib\hibernate-jpa-2.1-api.jar;C:\_store for crimore\HotelBookingApp\lib\jboss-transaction-api_1.1_spec-1.0.1.Final.jar;C:\_store for crimore\HotelBookingApp\lib\dom4j-1.6.1.jar;C:\_store for crimore\HotelBookingApp\lib\javassist-3.15.0-GA.jar;C:\_store for crimore\HotelBookingApp\lib\log4j.jar;C:\_store for crimore\HotelBookingApp\lib\jboss-archive-browsing.jar;C:\_store for crimore\HotelBookingApp\lib\jboss-logging-3.1.0.GA.jar;C:\_store for crimore\HotelBookingApp\lib\org.apache.commons.logging.jar;C:\_store for crimore\HotelBookingApp\lib\hibernate-commons-annotations-4.0.1.Final.jar;C:\_store for crimore\HotelBookingApp\lib\antlr-2.7.7.jar;C:\_store for crimore\HotelBookingApp\lib\jandex-1.1.0.final.jar;C:\_store for crimore\HotelBookingApp\lib\hibernate-entitymanager-4.2.8.Final.jar;C:\_store for crimore\HotelBookingApp\lib\hibernate-core-4.2.8.Final.jar;C:\_store for crimore\HotelBookingApp\h2db\h2-1.4.182.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\lib\idea_rt.jar, hibernate.bytecode.use_reflection_optimizer=false, idea.launcher.port=7537, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.7, sun.cpu.endian=little, javax.persistence.jdbc.driver=org.h2.Driver, sun.os.patch.level=, java.io.tmpdir=C:\Users\CCHING~1\AppData\Local\Temp\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jdk1.7.0_51\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, javax.persistence.jdbc.password=, user.dir=C:\_store for crimore\HotelBookingApp, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding=windows-1252, hibernate.use_identifier_rollback=false, java.specification.version=1.7, hibernate.connection.pool_size=1}
+2015-09-13_20:21:30.952/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:30.954/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:30.954/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:30.954/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:30.955/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:30.955/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:30.955/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.083/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister | Static SQL for entity: com.crimore.domain.location.Location
+2015-09-13_20:21:31.083/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Version select: select id from Location where id =?
+2015-09-13_20:21:31.083/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Snapshot select: select location_.id, location_.name as name2_5_ from Location location_ where location_.id=?
+2015-09-13_20:21:31.083/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Insert 0: insert into Location (name, id) values (?, ?)
+2015-09-13_20:21:31.084/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Update 0: update Location set name=? where id=?
+2015-09-13_20:21:31.084/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Delete 0: delete from Location where id=?
+2015-09-13_20:21:31.084/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Identity insert: insert into Location (id, name) values (null, ?)
+2015-09-13_20:21:31.085/CAT | INFO  | [main] |  | org.hibernate.tuple.PojoInstantiator | HHH000182: No default (no-argument) constructor for class: com.crimore.domain.guest.Guest (class must be instantiated by Interceptor)
+2015-09-13_20:21:31.092/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister | Static SQL for entity: com.crimore.domain.guest.Guest
+2015-09-13_20:21:31.092/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Version select: select id from Guest where id =?
+2015-09-13_20:21:31.092/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Snapshot select: select guest_.id, guest_.emailAddress as emailAdd2_2_, guest_.firstName as firstNam3_2_, guest_.surname as surname4_2_, guest_.telephoneNumber as telephon5_2_ from Guest guest_ where guest_.id=?
+2015-09-13_20:21:31.092/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Insert 0: insert into Guest (emailAddress, firstName, surname, telephoneNumber, id) values (?, ?, ?, ?, ?)
+2015-09-13_20:21:31.093/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Update 0: update Guest set emailAddress=?, firstName=?, surname=?, telephoneNumber=? where id=?
+2015-09-13_20:21:31.093/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Delete 0: delete from Guest where id=?
+2015-09-13_20:21:31.093/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Identity insert: insert into Guest (id, emailAddress, firstName, surname, telephoneNumber) values (null, ?, ?, ?, ?)
+2015-09-13_20:21:31.100/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister | Static SQL for entity: com.crimore.domain.hotel.RoomType
+2015-09-13_20:21:31.100/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Version select: select id from RoomType where id =?
+2015-09-13_20:21:31.100/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Snapshot select: select roomtype_.id, roomtype_.description as descript2_6_, roomtype_.hotelID as hotelID6_6_, roomtype_.maxNumberOfPeople as maxNumbe3_6_, roomtype_.name as name4_6_, roomtype_.roomRatePerDay as roomRate5_6_ from RoomType roomtype_ where roomtype_.id=?
+2015-09-13_20:21:31.101/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Insert 0: insert into RoomType (description, hotelID, maxNumberOfPeople, name, roomRatePerDay, id) values (?, ?, ?, ?, ?, ?)
+2015-09-13_20:21:31.101/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Update 0: update RoomType set description=?, hotelID=?, maxNumberOfPeople=?, name=?, roomRatePerDay=? where id=?
+2015-09-13_20:21:31.101/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Delete 0: delete from RoomType where id=?
+2015-09-13_20:21:31.101/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Identity insert: insert into RoomType (id, description, hotelID, maxNumberOfPeople, name, roomRatePerDay) values (null, ?, ?, ?, ?, ?)
+2015-09-13_20:21:31.109/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister | Static SQL for entity: com.crimore.domain.hotel.Hotel
+2015-09-13_20:21:31.110/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Version select: select id from Hotel where id =?
+2015-09-13_20:21:31.110/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Snapshot select: select hotel_.id, hotel_.checkInTime as checkInT2_3_, hotel_.checkOutTime as checkOut3_3_, hotel_.description as descript4_3_, hotel_.emailAddress as emailAdd5_3_, hotel_.grade as grade6_3_, hotel_.hotelTypeID as hotelTyp8_3_, hotel_.locatedInID as locatedI9_3_, hotel_.name as name7_3_ from Hotel hotel_ where hotel_.id=?
+2015-09-13_20:21:31.110/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Insert 0: insert into Hotel (checkInTime, checkOutTime, description, emailAddress, grade, hotelTypeID, locatedInID, name, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2015-09-13_20:21:31.110/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Update 0: update Hotel set checkInTime=?, checkOutTime=?, description=?, emailAddress=?, grade=?, hotelTypeID=?, locatedInID=?, name=? where id=?
+2015-09-13_20:21:31.110/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Delete 0: delete from Hotel where id=?
+2015-09-13_20:21:31.110/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Identity insert: insert into Hotel (id, checkInTime, checkOutTime, description, emailAddress, grade, hotelTypeID, locatedInID, name) values (null, ?, ?, ?, ?, ?, ?, ?, ?)
+2015-09-13_20:21:31.116/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister | Static SQL for entity: com.crimore.domain.booking.BookingRoom
+2015-09-13_20:21:31.116/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Version select: select id from BookingRoom where id =?
+2015-09-13_20:21:31.116/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Snapshot select: select bookingroo_.id, bookingroo_.bookingID as bookingI3_1_, bookingroo_.name as name2_1_, bookingroo_.roomTypeID as roomType4_1_ from BookingRoom bookingroo_ where bookingroo_.id=?
+2015-09-13_20:21:31.116/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Insert 0: insert into BookingRoom (bookingID, name, roomTypeID, id) values (?, ?, ?, ?)
+2015-09-13_20:21:31.117/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Update 0: update BookingRoom set bookingID=?, name=?, roomTypeID=? where id=?
+2015-09-13_20:21:31.117/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Delete 0: delete from BookingRoom where id=?
+2015-09-13_20:21:31.117/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Identity insert: insert into BookingRoom (id, bookingID, name, roomTypeID) values (null, ?, ?, ?)
+2015-09-13_20:21:31.121/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister | Static SQL for entity: com.crimore.domain.hotel.HotelType
+2015-09-13_20:21:31.121/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Version select: select id from HotelType where id =?
+2015-09-13_20:21:31.122/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Snapshot select: select hoteltype_.id, hoteltype_.name as name2_4_ from HotelType hoteltype_ where hoteltype_.id=?
+2015-09-13_20:21:31.122/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Insert 0: insert into HotelType (name, id) values (?, ?)
+2015-09-13_20:21:31.122/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Update 0: update HotelType set name=? where id=?
+2015-09-13_20:21:31.122/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Delete 0: delete from HotelType where id=?
+2015-09-13_20:21:31.123/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Identity insert: insert into HotelType (id, name) values (null, ?)
+2015-09-13_20:21:31.124/CAT | INFO  | [main] |  | org.hibernate.tuple.PojoInstantiator | HHH000182: No default (no-argument) constructor for class: com.crimore.domain.booking.Booking (class must be instantiated by Interceptor)
+2015-09-13_20:21:31.132/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister | Static SQL for entity: com.crimore.domain.booking.Booking
+2015-09-13_20:21:31.133/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Version select: select id from Booking where id =?
+2015-09-13_20:21:31.133/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Snapshot select: select booking_.id, booking_.arrivalDate as arrivalD2_0_, booking_.comments as comments3_0_, booking_.departureDate as departur4_0_, booking_.guestID as guestID5_0_, booking_.hotelID as hotelID6_0_ from Booking booking_ where booking_.id=?
+2015-09-13_20:21:31.133/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Insert 0: insert into Booking (arrivalDate, comments, departureDate, guestID, hotelID, id) values (?, ?, ?, ?, ?, ?)
+2015-09-13_20:21:31.133/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Update 0: update Booking set arrivalDate=?, comments=?, departureDate=?, guestID=?, hotelID=? where id=?
+2015-09-13_20:21:31.133/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Delete 0: delete from Booking where id=?
+2015-09-13_20:21:31.133/CAT | DEBUG | [main] |  | org.hibernate.persister.entity.AbstractEntityPersister |  Identity insert: insert into Booking (id, arrivalDate, comments, departureDate, guestID, hotelID) values (null, ?, ?, ?, ?, ?)
+2015-09-13_20:21:31.166/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.location.Location [NONE]: select location0_.id as id1_5_0_, location0_.name as name2_5_0_ from Location location0_ where location0_.id=?
+2015-09-13_20:21:31.166/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.location.Location [READ]: select location0_.id as id1_5_0_, location0_.name as name2_5_0_ from Location location0_ where location0_.id=?
+2015-09-13_20:21:31.167/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.location.Location [UPGRADE]: select location0_.id as id1_5_0_, location0_.name as name2_5_0_ from Location location0_ where location0_.id=? for update
+2015-09-13_20:21:31.167/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.location.Location [UPGRADE_NOWAIT]: select location0_.id as id1_5_0_, location0_.name as name2_5_0_ from Location location0_ where location0_.id=? for update
+2015-09-13_20:21:31.168/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.location.Location [FORCE]: select location0_.id as id1_5_0_, location0_.name as name2_5_0_ from Location location0_ where location0_.id=? for update
+2015-09-13_20:21:31.168/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.location.Location [PESSIMISTIC_READ]: select location0_.id as id1_5_0_, location0_.name as name2_5_0_ from Location location0_ where location0_.id=? for update
+2015-09-13_20:21:31.168/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.location.Location [PESSIMISTIC_WRITE]: select location0_.id as id1_5_0_, location0_.name as name2_5_0_ from Location location0_ where location0_.id=? for update
+2015-09-13_20:21:31.169/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.location.Location [PESSIMISTIC_FORCE_INCREMENT]: select location0_.id as id1_5_0_, location0_.name as name2_5_0_ from Location location0_ where location0_.id=? for update
+2015-09-13_20:21:31.169/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.location.Location [OPTIMISTIC]: select location0_.id as id1_5_0_, location0_.name as name2_5_0_ from Location location0_ where location0_.id=?
+2015-09-13_20:21:31.169/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.location.Location [OPTIMISTIC_FORCE_INCREMENT]: select location0_.id as id1_5_0_, location0_.name as name2_5_0_ from Location location0_ where location0_.id=?
+2015-09-13_20:21:31.182/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for action ACTION_MERGE on entity com.crimore.domain.location.Location: select location0_.id as id1_5_0_, location0_.name as name2_5_0_ from Location location0_ where location0_.id=?
+2015-09-13_20:21:31.183/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for action ACTION_REFRESH on entity com.crimore.domain.location.Location: select location0_.id as id1_5_0_, location0_.name as name2_5_0_ from Location location0_ where location0_.id=?
+2015-09-13_20:21:31.183/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.guest.Guest [NONE]: select guest0_.id as id1_2_0_, guest0_.emailAddress as emailAdd2_2_0_, guest0_.firstName as firstNam3_2_0_, guest0_.surname as surname4_2_0_, guest0_.telephoneNumber as telephon5_2_0_ from Guest guest0_ where guest0_.id=?
+2015-09-13_20:21:31.184/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.guest.Guest [READ]: select guest0_.id as id1_2_0_, guest0_.emailAddress as emailAdd2_2_0_, guest0_.firstName as firstNam3_2_0_, guest0_.surname as surname4_2_0_, guest0_.telephoneNumber as telephon5_2_0_ from Guest guest0_ where guest0_.id=?
+2015-09-13_20:21:31.185/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.guest.Guest [UPGRADE]: select guest0_.id as id1_2_0_, guest0_.emailAddress as emailAdd2_2_0_, guest0_.firstName as firstNam3_2_0_, guest0_.surname as surname4_2_0_, guest0_.telephoneNumber as telephon5_2_0_ from Guest guest0_ where guest0_.id=? for update
+2015-09-13_20:21:31.185/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.guest.Guest [UPGRADE_NOWAIT]: select guest0_.id as id1_2_0_, guest0_.emailAddress as emailAdd2_2_0_, guest0_.firstName as firstNam3_2_0_, guest0_.surname as surname4_2_0_, guest0_.telephoneNumber as telephon5_2_0_ from Guest guest0_ where guest0_.id=? for update
+2015-09-13_20:21:31.186/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.guest.Guest [FORCE]: select guest0_.id as id1_2_0_, guest0_.emailAddress as emailAdd2_2_0_, guest0_.firstName as firstNam3_2_0_, guest0_.surname as surname4_2_0_, guest0_.telephoneNumber as telephon5_2_0_ from Guest guest0_ where guest0_.id=? for update
+2015-09-13_20:21:31.186/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.guest.Guest [PESSIMISTIC_READ]: select guest0_.id as id1_2_0_, guest0_.emailAddress as emailAdd2_2_0_, guest0_.firstName as firstNam3_2_0_, guest0_.surname as surname4_2_0_, guest0_.telephoneNumber as telephon5_2_0_ from Guest guest0_ where guest0_.id=? for update
+2015-09-13_20:21:31.186/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.guest.Guest [PESSIMISTIC_WRITE]: select guest0_.id as id1_2_0_, guest0_.emailAddress as emailAdd2_2_0_, guest0_.firstName as firstNam3_2_0_, guest0_.surname as surname4_2_0_, guest0_.telephoneNumber as telephon5_2_0_ from Guest guest0_ where guest0_.id=? for update
+2015-09-13_20:21:31.187/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.guest.Guest [PESSIMISTIC_FORCE_INCREMENT]: select guest0_.id as id1_2_0_, guest0_.emailAddress as emailAdd2_2_0_, guest0_.firstName as firstNam3_2_0_, guest0_.surname as surname4_2_0_, guest0_.telephoneNumber as telephon5_2_0_ from Guest guest0_ where guest0_.id=? for update
+2015-09-13_20:21:31.187/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.guest.Guest [OPTIMISTIC]: select guest0_.id as id1_2_0_, guest0_.emailAddress as emailAdd2_2_0_, guest0_.firstName as firstNam3_2_0_, guest0_.surname as surname4_2_0_, guest0_.telephoneNumber as telephon5_2_0_ from Guest guest0_ where guest0_.id=?
+2015-09-13_20:21:31.188/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.guest.Guest [OPTIMISTIC_FORCE_INCREMENT]: select guest0_.id as id1_2_0_, guest0_.emailAddress as emailAdd2_2_0_, guest0_.firstName as firstNam3_2_0_, guest0_.surname as surname4_2_0_, guest0_.telephoneNumber as telephon5_2_0_ from Guest guest0_ where guest0_.id=?
+2015-09-13_20:21:31.188/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for action ACTION_MERGE on entity com.crimore.domain.guest.Guest: select guest0_.id as id1_2_0_, guest0_.emailAddress as emailAdd2_2_0_, guest0_.firstName as firstNam3_2_0_, guest0_.surname as surname4_2_0_, guest0_.telephoneNumber as telephon5_2_0_ from Guest guest0_ where guest0_.id=?
+2015-09-13_20:21:31.188/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for action ACTION_REFRESH on entity com.crimore.domain.guest.Guest: select guest0_.id as id1_2_0_, guest0_.emailAddress as emailAdd2_2_0_, guest0_.firstName as firstNam3_2_0_, guest0_.surname as surname4_2_0_, guest0_.telephoneNumber as telephon5_2_0_ from Guest guest0_ where guest0_.id=?
+2015-09-13_20:21:31.192/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.RoomType [NONE]: select roomtype0_.id as id1_6_3_, roomtype0_.description as descript2_6_3_, roomtype0_.hotelID as hotelID6_6_3_, roomtype0_.maxNumberOfPeople as maxNumbe3_6_3_, roomtype0_.name as name4_6_3_, roomtype0_.roomRatePerDay as roomRate5_6_3_, hotel1_.id as id1_3_0_, hotel1_.checkInTime as checkInT2_3_0_, hotel1_.checkOutTime as checkOut3_3_0_, hotel1_.description as descript4_3_0_, hotel1_.emailAddress as emailAdd5_3_0_, hotel1_.grade as grade6_3_0_, hotel1_.hotelTypeID as hotelTyp8_3_0_, hotel1_.locatedInID as locatedI9_3_0_, hotel1_.name as name7_3_0_, hoteltype2_.id as id1_4_1_, hoteltype2_.name as name2_4_1_, location3_.id as id1_5_2_, location3_.name as name2_5_2_ from RoomType roomtype0_ left outer join Hotel hotel1_ on roomtype0_.hotelID=hotel1_.id left outer join HotelType hoteltype2_ on hotel1_.hotelTypeID=hoteltype2_.id left outer join Location location3_ on hotel1_.locatedInID=location3_.id where roomtype0_.id=?
+2015-09-13_20:21:31.193/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.RoomType [READ]: select roomtype0_.id as id1_6_3_, roomtype0_.description as descript2_6_3_, roomtype0_.hotelID as hotelID6_6_3_, roomtype0_.maxNumberOfPeople as maxNumbe3_6_3_, roomtype0_.name as name4_6_3_, roomtype0_.roomRatePerDay as roomRate5_6_3_, hotel1_.id as id1_3_0_, hotel1_.checkInTime as checkInT2_3_0_, hotel1_.checkOutTime as checkOut3_3_0_, hotel1_.description as descript4_3_0_, hotel1_.emailAddress as emailAdd5_3_0_, hotel1_.grade as grade6_3_0_, hotel1_.hotelTypeID as hotelTyp8_3_0_, hotel1_.locatedInID as locatedI9_3_0_, hotel1_.name as name7_3_0_, hoteltype2_.id as id1_4_1_, hoteltype2_.name as name2_4_1_, location3_.id as id1_5_2_, location3_.name as name2_5_2_ from RoomType roomtype0_ left outer join Hotel hotel1_ on roomtype0_.hotelID=hotel1_.id left outer join HotelType hoteltype2_ on hotel1_.hotelTypeID=hoteltype2_.id left outer join Location location3_ on hotel1_.locatedInID=location3_.id where roomtype0_.id=?
+2015-09-13_20:21:31.193/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.RoomType [UPGRADE]: select roomtype0_.id as id1_6_0_, roomtype0_.description as descript2_6_0_, roomtype0_.hotelID as hotelID6_6_0_, roomtype0_.maxNumberOfPeople as maxNumbe3_6_0_, roomtype0_.name as name4_6_0_, roomtype0_.roomRatePerDay as roomRate5_6_0_ from RoomType roomtype0_ where roomtype0_.id=? for update
+2015-09-13_20:21:31.194/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.RoomType [UPGRADE_NOWAIT]: select roomtype0_.id as id1_6_0_, roomtype0_.description as descript2_6_0_, roomtype0_.hotelID as hotelID6_6_0_, roomtype0_.maxNumberOfPeople as maxNumbe3_6_0_, roomtype0_.name as name4_6_0_, roomtype0_.roomRatePerDay as roomRate5_6_0_ from RoomType roomtype0_ where roomtype0_.id=? for update
+2015-09-13_20:21:31.194/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.RoomType [FORCE]: select roomtype0_.id as id1_6_0_, roomtype0_.description as descript2_6_0_, roomtype0_.hotelID as hotelID6_6_0_, roomtype0_.maxNumberOfPeople as maxNumbe3_6_0_, roomtype0_.name as name4_6_0_, roomtype0_.roomRatePerDay as roomRate5_6_0_ from RoomType roomtype0_ where roomtype0_.id=? for update
+2015-09-13_20:21:31.195/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.RoomType [PESSIMISTIC_READ]: select roomtype0_.id as id1_6_0_, roomtype0_.description as descript2_6_0_, roomtype0_.hotelID as hotelID6_6_0_, roomtype0_.maxNumberOfPeople as maxNumbe3_6_0_, roomtype0_.name as name4_6_0_, roomtype0_.roomRatePerDay as roomRate5_6_0_ from RoomType roomtype0_ where roomtype0_.id=? for update
+2015-09-13_20:21:31.195/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.RoomType [PESSIMISTIC_WRITE]: select roomtype0_.id as id1_6_0_, roomtype0_.description as descript2_6_0_, roomtype0_.hotelID as hotelID6_6_0_, roomtype0_.maxNumberOfPeople as maxNumbe3_6_0_, roomtype0_.name as name4_6_0_, roomtype0_.roomRatePerDay as roomRate5_6_0_ from RoomType roomtype0_ where roomtype0_.id=? for update
+2015-09-13_20:21:31.196/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.RoomType [PESSIMISTIC_FORCE_INCREMENT]: select roomtype0_.id as id1_6_0_, roomtype0_.description as descript2_6_0_, roomtype0_.hotelID as hotelID6_6_0_, roomtype0_.maxNumberOfPeople as maxNumbe3_6_0_, roomtype0_.name as name4_6_0_, roomtype0_.roomRatePerDay as roomRate5_6_0_ from RoomType roomtype0_ where roomtype0_.id=? for update
+2015-09-13_20:21:31.196/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.RoomType [OPTIMISTIC]: select roomtype0_.id as id1_6_0_, roomtype0_.description as descript2_6_0_, roomtype0_.hotelID as hotelID6_6_0_, roomtype0_.maxNumberOfPeople as maxNumbe3_6_0_, roomtype0_.name as name4_6_0_, roomtype0_.roomRatePerDay as roomRate5_6_0_ from RoomType roomtype0_ where roomtype0_.id=?
+2015-09-13_20:21:31.196/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.RoomType [OPTIMISTIC_FORCE_INCREMENT]: select roomtype0_.id as id1_6_0_, roomtype0_.description as descript2_6_0_, roomtype0_.hotelID as hotelID6_6_0_, roomtype0_.maxNumberOfPeople as maxNumbe3_6_0_, roomtype0_.name as name4_6_0_, roomtype0_.roomRatePerDay as roomRate5_6_0_ from RoomType roomtype0_ where roomtype0_.id=?
+2015-09-13_20:21:31.197/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for action ACTION_MERGE on entity com.crimore.domain.hotel.RoomType: select roomtype0_.id as id1_6_0_, roomtype0_.description as descript2_6_0_, roomtype0_.hotelID as hotelID6_6_0_, roomtype0_.maxNumberOfPeople as maxNumbe3_6_0_, roomtype0_.name as name4_6_0_, roomtype0_.roomRatePerDay as roomRate5_6_0_ from RoomType roomtype0_ where roomtype0_.id=?
+2015-09-13_20:21:31.197/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for action ACTION_REFRESH on entity com.crimore.domain.hotel.RoomType: select roomtype0_.id as id1_6_0_, roomtype0_.description as descript2_6_0_, roomtype0_.hotelID as hotelID6_6_0_, roomtype0_.maxNumberOfPeople as maxNumbe3_6_0_, roomtype0_.name as name4_6_0_, roomtype0_.roomRatePerDay as roomRate5_6_0_ from RoomType roomtype0_ where roomtype0_.id=?
+2015-09-13_20:21:31.198/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.Hotel [NONE]: select hotel0_.id as id1_3_2_, hotel0_.checkInTime as checkInT2_3_2_, hotel0_.checkOutTime as checkOut3_3_2_, hotel0_.description as descript4_3_2_, hotel0_.emailAddress as emailAdd5_3_2_, hotel0_.grade as grade6_3_2_, hotel0_.hotelTypeID as hotelTyp8_3_2_, hotel0_.locatedInID as locatedI9_3_2_, hotel0_.name as name7_3_2_, hoteltype1_.id as id1_4_0_, hoteltype1_.name as name2_4_0_, location2_.id as id1_5_1_, location2_.name as name2_5_1_ from Hotel hotel0_ left outer join HotelType hoteltype1_ on hotel0_.hotelTypeID=hoteltype1_.id left outer join Location location2_ on hotel0_.locatedInID=location2_.id where hotel0_.id=?
+2015-09-13_20:21:31.199/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.Hotel [READ]: select hotel0_.id as id1_3_2_, hotel0_.checkInTime as checkInT2_3_2_, hotel0_.checkOutTime as checkOut3_3_2_, hotel0_.description as descript4_3_2_, hotel0_.emailAddress as emailAdd5_3_2_, hotel0_.grade as grade6_3_2_, hotel0_.hotelTypeID as hotelTyp8_3_2_, hotel0_.locatedInID as locatedI9_3_2_, hotel0_.name as name7_3_2_, hoteltype1_.id as id1_4_0_, hoteltype1_.name as name2_4_0_, location2_.id as id1_5_1_, location2_.name as name2_5_1_ from Hotel hotel0_ left outer join HotelType hoteltype1_ on hotel0_.hotelTypeID=hoteltype1_.id left outer join Location location2_ on hotel0_.locatedInID=location2_.id where hotel0_.id=?
+2015-09-13_20:21:31.199/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.Hotel [UPGRADE]: select hotel0_.id as id1_3_0_, hotel0_.checkInTime as checkInT2_3_0_, hotel0_.checkOutTime as checkOut3_3_0_, hotel0_.description as descript4_3_0_, hotel0_.emailAddress as emailAdd5_3_0_, hotel0_.grade as grade6_3_0_, hotel0_.hotelTypeID as hotelTyp8_3_0_, hotel0_.locatedInID as locatedI9_3_0_, hotel0_.name as name7_3_0_ from Hotel hotel0_ where hotel0_.id=? for update
+2015-09-13_20:21:31.199/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.Hotel [UPGRADE_NOWAIT]: select hotel0_.id as id1_3_0_, hotel0_.checkInTime as checkInT2_3_0_, hotel0_.checkOutTime as checkOut3_3_0_, hotel0_.description as descript4_3_0_, hotel0_.emailAddress as emailAdd5_3_0_, hotel0_.grade as grade6_3_0_, hotel0_.hotelTypeID as hotelTyp8_3_0_, hotel0_.locatedInID as locatedI9_3_0_, hotel0_.name as name7_3_0_ from Hotel hotel0_ where hotel0_.id=? for update
+2015-09-13_20:21:31.200/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.Hotel [FORCE]: select hotel0_.id as id1_3_0_, hotel0_.checkInTime as checkInT2_3_0_, hotel0_.checkOutTime as checkOut3_3_0_, hotel0_.description as descript4_3_0_, hotel0_.emailAddress as emailAdd5_3_0_, hotel0_.grade as grade6_3_0_, hotel0_.hotelTypeID as hotelTyp8_3_0_, hotel0_.locatedInID as locatedI9_3_0_, hotel0_.name as name7_3_0_ from Hotel hotel0_ where hotel0_.id=? for update
+2015-09-13_20:21:31.200/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.Hotel [PESSIMISTIC_READ]: select hotel0_.id as id1_3_0_, hotel0_.checkInTime as checkInT2_3_0_, hotel0_.checkOutTime as checkOut3_3_0_, hotel0_.description as descript4_3_0_, hotel0_.emailAddress as emailAdd5_3_0_, hotel0_.grade as grade6_3_0_, hotel0_.hotelTypeID as hotelTyp8_3_0_, hotel0_.locatedInID as locatedI9_3_0_, hotel0_.name as name7_3_0_ from Hotel hotel0_ where hotel0_.id=? for update
+2015-09-13_20:21:31.201/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.Hotel [PESSIMISTIC_WRITE]: select hotel0_.id as id1_3_0_, hotel0_.checkInTime as checkInT2_3_0_, hotel0_.checkOutTime as checkOut3_3_0_, hotel0_.description as descript4_3_0_, hotel0_.emailAddress as emailAdd5_3_0_, hotel0_.grade as grade6_3_0_, hotel0_.hotelTypeID as hotelTyp8_3_0_, hotel0_.locatedInID as locatedI9_3_0_, hotel0_.name as name7_3_0_ from Hotel hotel0_ where hotel0_.id=? for update
+2015-09-13_20:21:31.201/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.Hotel [PESSIMISTIC_FORCE_INCREMENT]: select hotel0_.id as id1_3_0_, hotel0_.checkInTime as checkInT2_3_0_, hotel0_.checkOutTime as checkOut3_3_0_, hotel0_.description as descript4_3_0_, hotel0_.emailAddress as emailAdd5_3_0_, hotel0_.grade as grade6_3_0_, hotel0_.hotelTypeID as hotelTyp8_3_0_, hotel0_.locatedInID as locatedI9_3_0_, hotel0_.name as name7_3_0_ from Hotel hotel0_ where hotel0_.id=? for update
+2015-09-13_20:21:31.203/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.Hotel [OPTIMISTIC]: select hotel0_.id as id1_3_0_, hotel0_.checkInTime as checkInT2_3_0_, hotel0_.checkOutTime as checkOut3_3_0_, hotel0_.description as descript4_3_0_, hotel0_.emailAddress as emailAdd5_3_0_, hotel0_.grade as grade6_3_0_, hotel0_.hotelTypeID as hotelTyp8_3_0_, hotel0_.locatedInID as locatedI9_3_0_, hotel0_.name as name7_3_0_ from Hotel hotel0_ where hotel0_.id=?
+2015-09-13_20:21:31.203/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.Hotel [OPTIMISTIC_FORCE_INCREMENT]: select hotel0_.id as id1_3_0_, hotel0_.checkInTime as checkInT2_3_0_, hotel0_.checkOutTime as checkOut3_3_0_, hotel0_.description as descript4_3_0_, hotel0_.emailAddress as emailAdd5_3_0_, hotel0_.grade as grade6_3_0_, hotel0_.hotelTypeID as hotelTyp8_3_0_, hotel0_.locatedInID as locatedI9_3_0_, hotel0_.name as name7_3_0_ from Hotel hotel0_ where hotel0_.id=?
+2015-09-13_20:21:31.204/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for action ACTION_MERGE on entity com.crimore.domain.hotel.Hotel: select hotel0_.id as id1_3_0_, hotel0_.checkInTime as checkInT2_3_0_, hotel0_.checkOutTime as checkOut3_3_0_, hotel0_.description as descript4_3_0_, hotel0_.emailAddress as emailAdd5_3_0_, hotel0_.grade as grade6_3_0_, hotel0_.hotelTypeID as hotelTyp8_3_0_, hotel0_.locatedInID as locatedI9_3_0_, hotel0_.name as name7_3_0_ from Hotel hotel0_ where hotel0_.id=?
+2015-09-13_20:21:31.204/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for action ACTION_REFRESH on entity com.crimore.domain.hotel.Hotel: select hotel0_.id as id1_3_0_, hotel0_.checkInTime as checkInT2_3_0_, hotel0_.checkOutTime as checkOut3_3_0_, hotel0_.description as descript4_3_0_, hotel0_.emailAddress as emailAdd5_3_0_, hotel0_.grade as grade6_3_0_, hotel0_.hotelTypeID as hotelTyp8_3_0_, hotel0_.locatedInID as locatedI9_3_0_, hotel0_.name as name7_3_0_ from Hotel hotel0_ where hotel0_.id=?
+2015-09-13_20:21:31.205/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.HotelType [NONE]: select hoteltype0_.id as id1_4_0_, hoteltype0_.name as name2_4_0_ from HotelType hoteltype0_ where hoteltype0_.id=?
+2015-09-13_20:21:31.205/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.HotelType [READ]: select hoteltype0_.id as id1_4_0_, hoteltype0_.name as name2_4_0_ from HotelType hoteltype0_ where hoteltype0_.id=?
+2015-09-13_20:21:31.205/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.HotelType [UPGRADE]: select hoteltype0_.id as id1_4_0_, hoteltype0_.name as name2_4_0_ from HotelType hoteltype0_ where hoteltype0_.id=? for update
+2015-09-13_20:21:31.206/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.HotelType [UPGRADE_NOWAIT]: select hoteltype0_.id as id1_4_0_, hoteltype0_.name as name2_4_0_ from HotelType hoteltype0_ where hoteltype0_.id=? for update
+2015-09-13_20:21:31.206/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.HotelType [FORCE]: select hoteltype0_.id as id1_4_0_, hoteltype0_.name as name2_4_0_ from HotelType hoteltype0_ where hoteltype0_.id=? for update
+2015-09-13_20:21:31.207/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.HotelType [PESSIMISTIC_READ]: select hoteltype0_.id as id1_4_0_, hoteltype0_.name as name2_4_0_ from HotelType hoteltype0_ where hoteltype0_.id=? for update
+2015-09-13_20:21:31.207/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.HotelType [PESSIMISTIC_WRITE]: select hoteltype0_.id as id1_4_0_, hoteltype0_.name as name2_4_0_ from HotelType hoteltype0_ where hoteltype0_.id=? for update
+2015-09-13_20:21:31.207/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.HotelType [PESSIMISTIC_FORCE_INCREMENT]: select hoteltype0_.id as id1_4_0_, hoteltype0_.name as name2_4_0_ from HotelType hoteltype0_ where hoteltype0_.id=? for update
+2015-09-13_20:21:31.208/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.HotelType [OPTIMISTIC]: select hoteltype0_.id as id1_4_0_, hoteltype0_.name as name2_4_0_ from HotelType hoteltype0_ where hoteltype0_.id=?
+2015-09-13_20:21:31.208/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.hotel.HotelType [OPTIMISTIC_FORCE_INCREMENT]: select hoteltype0_.id as id1_4_0_, hoteltype0_.name as name2_4_0_ from HotelType hoteltype0_ where hoteltype0_.id=?
+2015-09-13_20:21:31.209/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for action ACTION_MERGE on entity com.crimore.domain.hotel.HotelType: select hoteltype0_.id as id1_4_0_, hoteltype0_.name as name2_4_0_ from HotelType hoteltype0_ where hoteltype0_.id=?
+2015-09-13_20:21:31.209/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for action ACTION_REFRESH on entity com.crimore.domain.hotel.HotelType: select hoteltype0_.id as id1_4_0_, hoteltype0_.name as name2_4_0_ from HotelType hoteltype0_ where hoteltype0_.id=?
+2015-09-13_20:21:31.211/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.booking.BookingRoom [NONE]: select bookingroo0_.id as id1_1_7_, bookingroo0_.bookingID as bookingI3_1_7_, bookingroo0_.name as name2_1_7_, bookingroo0_.roomTypeID as roomType4_1_7_, booking1_.id as id1_0_0_, booking1_.arrivalDate as arrivalD2_0_0_, booking1_.comments as comments3_0_0_, booking1_.departureDate as departur4_0_0_, booking1_.guestID as guestID5_0_0_, booking1_.hotelID as hotelID6_0_0_, guest2_.id as id1_2_1_, guest2_.emailAddress as emailAdd2_2_1_, guest2_.firstName as firstNam3_2_1_, guest2_.surname as surname4_2_1_, guest2_.telephoneNumber as telephon5_2_1_, hotel3_.id as id1_3_2_, hotel3_.checkInTime as checkInT2_3_2_, hotel3_.checkOutTime as checkOut3_3_2_, hotel3_.description as descript4_3_2_, hotel3_.emailAddress as emailAdd5_3_2_, hotel3_.grade as grade6_3_2_, hotel3_.hotelTypeID as hotelTyp8_3_2_, hotel3_.locatedInID as locatedI9_3_2_, hotel3_.name as name7_3_2_, hoteltype4_.id as id1_4_3_, hoteltype4_.name as name2_4_3_, location5_.id as id1_5_4_, location5_.name as name2_5_4_, roomtype6_.id as id1_6_5_, roomtype6_.description as descript2_6_5_, roomtype6_.hotelID as hotelID6_6_5_, roomtype6_.maxNumberOfPeople as maxNumbe3_6_5_, roomtype6_.name as name4_6_5_, roomtype6_.roomRatePerDay as roomRate5_6_5_, hotel7_.id as id1_3_6_, hotel7_.checkInTime as checkInT2_3_6_, hotel7_.checkOutTime as checkOut3_3_6_, hotel7_.description as descript4_3_6_, hotel7_.emailAddress as emailAdd5_3_6_, hotel7_.grade as grade6_3_6_, hotel7_.hotelTypeID as hotelTyp8_3_6_, hotel7_.locatedInID as locatedI9_3_6_, hotel7_.name as name7_3_6_ from BookingRoom bookingroo0_ left outer join Booking booking1_ on bookingroo0_.bookingID=booking1_.id left outer join Guest guest2_ on booking1_.guestID=guest2_.id left outer join Hotel hotel3_ on booking1_.hotelID=hotel3_.id left outer join HotelType hoteltype4_ on hotel3_.hotelTypeID=hoteltype4_.id left outer join Location location5_ on hotel3_.locatedInID=location5_.id left outer join RoomType roomtype6_ on bookingroo0_.roomTypeID=roomtype6_.id left outer join Hotel hotel7_ on roomtype6_.hotelID=hotel7_.id where bookingroo0_.id=?
+2015-09-13_20:21:31.213/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.booking.BookingRoom [READ]: select bookingroo0_.id as id1_1_7_, bookingroo0_.bookingID as bookingI3_1_7_, bookingroo0_.name as name2_1_7_, bookingroo0_.roomTypeID as roomType4_1_7_, booking1_.id as id1_0_0_, booking1_.arrivalDate as arrivalD2_0_0_, booking1_.comments as comments3_0_0_, booking1_.departureDate as departur4_0_0_, booking1_.guestID as guestID5_0_0_, booking1_.hotelID as hotelID6_0_0_, guest2_.id as id1_2_1_, guest2_.emailAddress as emailAdd2_2_1_, guest2_.firstName as firstNam3_2_1_, guest2_.surname as surname4_2_1_, guest2_.telephoneNumber as telephon5_2_1_, hotel3_.id as id1_3_2_, hotel3_.checkInTime as checkInT2_3_2_, hotel3_.checkOutTime as checkOut3_3_2_, hotel3_.description as descript4_3_2_, hotel3_.emailAddress as emailAdd5_3_2_, hotel3_.grade as grade6_3_2_, hotel3_.hotelTypeID as hotelTyp8_3_2_, hotel3_.locatedInID as locatedI9_3_2_, hotel3_.name as name7_3_2_, hoteltype4_.id as id1_4_3_, hoteltype4_.name as name2_4_3_, location5_.id as id1_5_4_, location5_.name as name2_5_4_, roomtype6_.id as id1_6_5_, roomtype6_.description as descript2_6_5_, roomtype6_.hotelID as hotelID6_6_5_, roomtype6_.maxNumberOfPeople as maxNumbe3_6_5_, roomtype6_.name as name4_6_5_, roomtype6_.roomRatePerDay as roomRate5_6_5_, hotel7_.id as id1_3_6_, hotel7_.checkInTime as checkInT2_3_6_, hotel7_.checkOutTime as checkOut3_3_6_, hotel7_.description as descript4_3_6_, hotel7_.emailAddress as emailAdd5_3_6_, hotel7_.grade as grade6_3_6_, hotel7_.hotelTypeID as hotelTyp8_3_6_, hotel7_.locatedInID as locatedI9_3_6_, hotel7_.name as name7_3_6_ from BookingRoom bookingroo0_ left outer join Booking booking1_ on bookingroo0_.bookingID=booking1_.id left outer join Guest guest2_ on booking1_.guestID=guest2_.id left outer join Hotel hotel3_ on booking1_.hotelID=hotel3_.id left outer join HotelType hoteltype4_ on hotel3_.hotelTypeID=hoteltype4_.id left outer join Location location5_ on hotel3_.locatedInID=location5_.id left outer join RoomType roomtype6_ on bookingroo0_.roomTypeID=roomtype6_.id left outer join Hotel hotel7_ on roomtype6_.hotelID=hotel7_.id where bookingroo0_.id=?
+2015-09-13_20:21:31.214/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.booking.BookingRoom [UPGRADE]: select bookingroo0_.id as id1_1_0_, bookingroo0_.bookingID as bookingI3_1_0_, bookingroo0_.name as name2_1_0_, bookingroo0_.roomTypeID as roomType4_1_0_ from BookingRoom bookingroo0_ where bookingroo0_.id=? for update
+2015-09-13_20:21:31.214/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.booking.BookingRoom [UPGRADE_NOWAIT]: select bookingroo0_.id as id1_1_0_, bookingroo0_.bookingID as bookingI3_1_0_, bookingroo0_.name as name2_1_0_, bookingroo0_.roomTypeID as roomType4_1_0_ from BookingRoom bookingroo0_ where bookingroo0_.id=? for update
+2015-09-13_20:21:31.215/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.booking.BookingRoom [FORCE]: select bookingroo0_.id as id1_1_0_, bookingroo0_.bookingID as bookingI3_1_0_, bookingroo0_.name as name2_1_0_, bookingroo0_.roomTypeID as roomType4_1_0_ from BookingRoom bookingroo0_ where bookingroo0_.id=? for update
+2015-09-13_20:21:31.215/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.booking.BookingRoom [PESSIMISTIC_READ]: select bookingroo0_.id as id1_1_0_, bookingroo0_.bookingID as bookingI3_1_0_, bookingroo0_.name as name2_1_0_, bookingroo0_.roomTypeID as roomType4_1_0_ from BookingRoom bookingroo0_ where bookingroo0_.id=? for update
+2015-09-13_20:21:31.216/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.booking.BookingRoom [PESSIMISTIC_WRITE]: select bookingroo0_.id as id1_1_0_, bookingroo0_.bookingID as bookingI3_1_0_, bookingroo0_.name as name2_1_0_, bookingroo0_.roomTypeID as roomType4_1_0_ from BookingRoom bookingroo0_ where bookingroo0_.id=? for update
+2015-09-13_20:21:31.216/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.booking.BookingRoom [PESSIMISTIC_FORCE_INCREMENT]: select bookingroo0_.id as id1_1_0_, bookingroo0_.bookingID as bookingI3_1_0_, bookingroo0_.name as name2_1_0_, bookingroo0_.roomTypeID as roomType4_1_0_ from BookingRoom bookingroo0_ where bookingroo0_.id=? for update
+2015-09-13_20:21:31.217/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.booking.BookingRoom [OPTIMISTIC]: select bookingroo0_.id as id1_1_0_, bookingroo0_.bookingID as bookingI3_1_0_, bookingroo0_.name as name2_1_0_, bookingroo0_.roomTypeID as roomType4_1_0_ from BookingRoom bookingroo0_ where bookingroo0_.id=?
+2015-09-13_20:21:31.217/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.booking.BookingRoom [OPTIMISTIC_FORCE_INCREMENT]: select bookingroo0_.id as id1_1_0_, bookingroo0_.bookingID as bookingI3_1_0_, bookingroo0_.name as name2_1_0_, bookingroo0_.roomTypeID as roomType4_1_0_ from BookingRoom bookingroo0_ where bookingroo0_.id=?
+2015-09-13_20:21:31.218/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for action ACTION_MERGE on entity com.crimore.domain.booking.BookingRoom: select bookingroo0_.id as id1_1_0_, bookingroo0_.bookingID as bookingI3_1_0_, bookingroo0_.name as name2_1_0_, bookingroo0_.roomTypeID as roomType4_1_0_ from BookingRoom bookingroo0_ where bookingroo0_.id=?
+2015-09-13_20:21:31.219/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for action ACTION_REFRESH on entity com.crimore.domain.booking.BookingRoom: select bookingroo0_.id as id1_1_0_, bookingroo0_.bookingID as bookingI3_1_0_, bookingroo0_.name as name2_1_0_, bookingroo0_.roomTypeID as roomType4_1_0_ from BookingRoom bookingroo0_ where bookingroo0_.id=?
+2015-09-13_20:21:31.220/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.booking.Booking [NONE]: select booking0_.id as id1_0_4_, booking0_.arrivalDate as arrivalD2_0_4_, booking0_.comments as comments3_0_4_, booking0_.departureDate as departur4_0_4_, booking0_.guestID as guestID5_0_4_, booking0_.hotelID as hotelID6_0_4_, guest1_.id as id1_2_0_, guest1_.emailAddress as emailAdd2_2_0_, guest1_.firstName as firstNam3_2_0_, guest1_.surname as surname4_2_0_, guest1_.telephoneNumber as telephon5_2_0_, hotel2_.id as id1_3_1_, hotel2_.checkInTime as checkInT2_3_1_, hotel2_.checkOutTime as checkOut3_3_1_, hotel2_.description as descript4_3_1_, hotel2_.emailAddress as emailAdd5_3_1_, hotel2_.grade as grade6_3_1_, hotel2_.hotelTypeID as hotelTyp8_3_1_, hotel2_.locatedInID as locatedI9_3_1_, hotel2_.name as name7_3_1_, hoteltype3_.id as id1_4_2_, hoteltype3_.name as name2_4_2_, location4_.id as id1_5_3_, location4_.name as name2_5_3_ from Booking booking0_ left outer join Guest guest1_ on booking0_.guestID=guest1_.id left outer join Hotel hotel2_ on booking0_.hotelID=hotel2_.id left outer join HotelType hoteltype3_ on hotel2_.hotelTypeID=hoteltype3_.id left outer join Location location4_ on hotel2_.locatedInID=location4_.id where booking0_.id=?
+2015-09-13_20:21:31.221/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.booking.Booking [READ]: select booking0_.id as id1_0_4_, booking0_.arrivalDate as arrivalD2_0_4_, booking0_.comments as comments3_0_4_, booking0_.departureDate as departur4_0_4_, booking0_.guestID as guestID5_0_4_, booking0_.hotelID as hotelID6_0_4_, guest1_.id as id1_2_0_, guest1_.emailAddress as emailAdd2_2_0_, guest1_.firstName as firstNam3_2_0_, guest1_.surname as surname4_2_0_, guest1_.telephoneNumber as telephon5_2_0_, hotel2_.id as id1_3_1_, hotel2_.checkInTime as checkInT2_3_1_, hotel2_.checkOutTime as checkOut3_3_1_, hotel2_.description as descript4_3_1_, hotel2_.emailAddress as emailAdd5_3_1_, hotel2_.grade as grade6_3_1_, hotel2_.hotelTypeID as hotelTyp8_3_1_, hotel2_.locatedInID as locatedI9_3_1_, hotel2_.name as name7_3_1_, hoteltype3_.id as id1_4_2_, hoteltype3_.name as name2_4_2_, location4_.id as id1_5_3_, location4_.name as name2_5_3_ from Booking booking0_ left outer join Guest guest1_ on booking0_.guestID=guest1_.id left outer join Hotel hotel2_ on booking0_.hotelID=hotel2_.id left outer join HotelType hoteltype3_ on hotel2_.hotelTypeID=hoteltype3_.id left outer join Location location4_ on hotel2_.locatedInID=location4_.id where booking0_.id=?
+2015-09-13_20:21:31.221/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.booking.Booking [UPGRADE]: select booking0_.id as id1_0_0_, booking0_.arrivalDate as arrivalD2_0_0_, booking0_.comments as comments3_0_0_, booking0_.departureDate as departur4_0_0_, booking0_.guestID as guestID5_0_0_, booking0_.hotelID as hotelID6_0_0_ from Booking booking0_ where booking0_.id=? for update
+2015-09-13_20:21:31.221/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.booking.Booking [UPGRADE_NOWAIT]: select booking0_.id as id1_0_0_, booking0_.arrivalDate as arrivalD2_0_0_, booking0_.comments as comments3_0_0_, booking0_.departureDate as departur4_0_0_, booking0_.guestID as guestID5_0_0_, booking0_.hotelID as hotelID6_0_0_ from Booking booking0_ where booking0_.id=? for update
+2015-09-13_20:21:31.222/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.booking.Booking [FORCE]: select booking0_.id as id1_0_0_, booking0_.arrivalDate as arrivalD2_0_0_, booking0_.comments as comments3_0_0_, booking0_.departureDate as departur4_0_0_, booking0_.guestID as guestID5_0_0_, booking0_.hotelID as hotelID6_0_0_ from Booking booking0_ where booking0_.id=? for update
+2015-09-13_20:21:31.222/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.booking.Booking [PESSIMISTIC_READ]: select booking0_.id as id1_0_0_, booking0_.arrivalDate as arrivalD2_0_0_, booking0_.comments as comments3_0_0_, booking0_.departureDate as departur4_0_0_, booking0_.guestID as guestID5_0_0_, booking0_.hotelID as hotelID6_0_0_ from Booking booking0_ where booking0_.id=? for update
+2015-09-13_20:21:31.223/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.booking.Booking [PESSIMISTIC_WRITE]: select booking0_.id as id1_0_0_, booking0_.arrivalDate as arrivalD2_0_0_, booking0_.comments as comments3_0_0_, booking0_.departureDate as departur4_0_0_, booking0_.guestID as guestID5_0_0_, booking0_.hotelID as hotelID6_0_0_ from Booking booking0_ where booking0_.id=? for update
+2015-09-13_20:21:31.223/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.booking.Booking [PESSIMISTIC_FORCE_INCREMENT]: select booking0_.id as id1_0_0_, booking0_.arrivalDate as arrivalD2_0_0_, booking0_.comments as comments3_0_0_, booking0_.departureDate as departur4_0_0_, booking0_.guestID as guestID5_0_0_, booking0_.hotelID as hotelID6_0_0_ from Booking booking0_ where booking0_.id=? for update
+2015-09-13_20:21:31.224/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.booking.Booking [OPTIMISTIC]: select booking0_.id as id1_0_0_, booking0_.arrivalDate as arrivalD2_0_0_, booking0_.comments as comments3_0_0_, booking0_.departureDate as departur4_0_0_, booking0_.guestID as guestID5_0_0_, booking0_.hotelID as hotelID6_0_0_ from Booking booking0_ where booking0_.id=?
+2015-09-13_20:21:31.224/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for entity com.crimore.domain.booking.Booking [OPTIMISTIC_FORCE_INCREMENT]: select booking0_.id as id1_0_0_, booking0_.arrivalDate as arrivalD2_0_0_, booking0_.comments as comments3_0_0_, booking0_.departureDate as departur4_0_0_, booking0_.guestID as guestID5_0_0_, booking0_.hotelID as hotelID6_0_0_ from Booking booking0_ where booking0_.id=?
+2015-09-13_20:21:31.224/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for action ACTION_MERGE on entity com.crimore.domain.booking.Booking: select booking0_.id as id1_0_0_, booking0_.arrivalDate as arrivalD2_0_0_, booking0_.comments as comments3_0_0_, booking0_.departureDate as departur4_0_0_, booking0_.guestID as guestID5_0_0_, booking0_.hotelID as hotelID6_0_0_ from Booking booking0_ where booking0_.id=?
+2015-09-13_20:21:31.225/CAT | DEBUG | [main] |  | org.hibernate.loader.Loader | Static select for action ACTION_REFRESH on entity com.crimore.domain.booking.Booking: select booking0_.id as id1_0_0_, booking0_.arrivalDate as arrivalD2_0_0_, booking0_.comments as comments3_0_0_, booking0_.departureDate as departur4_0_0_, booking0_.guestID as guestID5_0_0_, booking0_.hotelID as hotelID6_0_0_ from Booking booking0_ where booking0_.id=?
+2015-09-13_20:21:31.262/CAT | DEBUG | [main] |  | org.hibernate.internal.SessionFactoryRegistry | Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@5aef577f
+2015-09-13_20:21:31.266/CAT | DEBUG | [main] |  | org.hibernate.internal.SessionFactoryRegistry | Registering SessionFactory: ea2f4f9e-71c4-445c-963c-7a891543abb7 (<unnamed>)
+2015-09-13_20:21:31.266/CAT | DEBUG | [main] |  | org.hibernate.internal.SessionFactoryRegistry | Not binding SessionFactory to JNDI, no JNDI name configured
+2015-09-13_20:21:31.266/CAT | DEBUG | [main] |  | org.hibernate.internal.SessionFactoryImpl | Instantiated session factory
+2015-09-13_20:21:31.273/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing hbm.xml files
+2015-09-13_20:21:31.274/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Process annotated classes
+2015-09-13_20:21:31.274/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing fk mappings (*ToOne and JoinedSubclass)
+2015-09-13_20:21:31.274/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing extends queue
+2015-09-13_20:21:31.274/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing extends queue
+2015-09-13_20:21:31.274/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing collection mappings
+2015-09-13_20:21:31.274/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing native query and ResultSetMapping mappings
+2015-09-13_20:21:31.274/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing association property references
+2015-09-13_20:21:31.274/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Creating tables' unique integer identifiers
+2015-09-13_20:21:31.274/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing foreign key constraints
+2015-09-13_20:21:31.275/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.guest.Guest
+2015-09-13_20:21:31.275/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.hotel.Hotel
+2015-09-13_20:21:31.275/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.booking.Booking
+2015-09-13_20:21:31.275/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.hotel.RoomType
+2015-09-13_20:21:31.275/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.hotel.HotelType
+2015-09-13_20:21:31.275/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.location.Location
+2015-09-13_20:21:31.275/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.hotel.Hotel
+2015-09-13_20:21:31.276/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.277/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.277/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.277/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.277/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.277/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.278/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.278/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing hbm.xml files
+2015-09-13_20:21:31.278/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Process annotated classes
+2015-09-13_20:21:31.278/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing fk mappings (*ToOne and JoinedSubclass)
+2015-09-13_20:21:31.278/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing extends queue
+2015-09-13_20:21:31.278/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing extends queue
+2015-09-13_20:21:31.278/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing collection mappings
+2015-09-13_20:21:31.278/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing native query and ResultSetMapping mappings
+2015-09-13_20:21:31.278/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing association property references
+2015-09-13_20:21:31.279/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Creating tables' unique integer identifiers
+2015-09-13_20:21:31.279/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing foreign key constraints
+2015-09-13_20:21:31.279/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.guest.Guest
+2015-09-13_20:21:31.279/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.hotel.Hotel
+2015-09-13_20:21:31.279/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.booking.Booking
+2015-09-13_20:21:31.279/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.hotel.RoomType
+2015-09-13_20:21:31.279/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.hotel.HotelType
+2015-09-13_20:21:31.280/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.location.Location
+2015-09-13_20:21:31.280/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.hotel.Hotel
+2015-09-13_20:21:31.280/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.281/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.281/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.281/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.282/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.282/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.282/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.283/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.284/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.285/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.285/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.285/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.285/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.285/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.287/CAT | INFO  | [main] |  | org.hibernate.tool.hbm2ddl.SchemaExport | HHH000227: Running hbm2ddl schema export
+2015-09-13_20:21:31.288/CAT | DEBUG | [main] |  | org.hibernate.tool.hbm2ddl.SchemaExport | Import file not found: /import.sql
+2015-09-13_20:21:31.291/CAT | DEBUG | [main] |  | org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl | Opening new JDBC connection
+2015-09-13_20:21:31.651/CAT | DEBUG | [main] |  | org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl | Created connection to: jdbc:h2:./booking;DATABASE_TO_UPPER=false, Isolation Level: 2
+2015-09-13_20:21:31.653/CAT | DEBUG | [main] |  | org.hibernate.SQL | alter table Booking drop constraint FK_ch24wpanv4gpkwelq8y13vbc1
+2015-09-13_20:21:31.655/CAT | DEBUG | [main] |  | org.hibernate.SQL | alter table Booking drop constraint FK_qv2x12ty2ph53wntuogwlqwgp
+2015-09-13_20:21:31.656/CAT | DEBUG | [main] |  | org.hibernate.SQL | alter table BookingRoom drop constraint FK_gaow3m4bxr24yanptd22k18k
+2015-09-13_20:21:31.657/CAT | DEBUG | [main] |  | org.hibernate.SQL | alter table BookingRoom drop constraint FK_g7ai7liwv1n8jkmcn7b6n2as3
+2015-09-13_20:21:31.658/CAT | DEBUG | [main] |  | org.hibernate.SQL | alter table Hotel drop constraint FK_hmxgawm77d76arvjrgsdw0vx1
+2015-09-13_20:21:31.659/CAT | DEBUG | [main] |  | org.hibernate.SQL | alter table Hotel drop constraint FK_q9dveb5rqqve2j100jbgaip4u
+2015-09-13_20:21:31.659/CAT | DEBUG | [main] |  | org.hibernate.SQL | alter table RoomType drop constraint FK_j45xvfq1lysrjqngs57rq13ga
+2015-09-13_20:21:31.661/CAT | DEBUG | [main] |  | org.hibernate.SQL | drop table Booking if exists
+2015-09-13_20:21:31.663/CAT | DEBUG | [main] |  | org.hibernate.SQL | drop table BookingRoom if exists
+2015-09-13_20:21:31.665/CAT | DEBUG | [main] |  | org.hibernate.SQL | drop table Guest if exists
+2015-09-13_20:21:31.667/CAT | DEBUG | [main] |  | org.hibernate.SQL | drop table Hotel if exists
+2015-09-13_20:21:31.669/CAT | DEBUG | [main] |  | org.hibernate.SQL | drop table HotelType if exists
+2015-09-13_20:21:31.670/CAT | DEBUG | [main] |  | org.hibernate.SQL | drop table Location if exists
+2015-09-13_20:21:31.672/CAT | DEBUG | [main] |  | org.hibernate.SQL | drop table RoomType if exists
+2015-09-13_20:21:31.675/CAT | DEBUG | [main] |  | org.hibernate.SQL | create table Booking (id integer generated by default as identity, arrivalDate date, comments varchar(1024), departureDate date, guestID integer, hotelID integer, primary key (id))
+2015-09-13_20:21:31.679/CAT | DEBUG | [main] |  | org.hibernate.SQL | create table BookingRoom (id integer generated by default as identity, name varchar(255), bookingID integer, roomTypeID integer, primary key (id))
+2015-09-13_20:21:31.681/CAT | DEBUG | [main] |  | org.hibernate.SQL | create table Guest (id integer generated by default as identity, emailAddress varchar(64), firstName varchar(32), surname varchar(32), telephoneNumber varchar(10), primary key (id))
+2015-09-13_20:21:31.682/CAT | DEBUG | [main] |  | org.hibernate.SQL | create table Hotel (id integer generated by default as identity, checkInTime timestamp, checkOutTime timestamp, description varchar(255), emailAddress varchar(255), grade varchar(255), name varchar(255), hotelTypeID integer, locatedInID integer, primary key (id))
+2015-09-13_20:21:31.684/CAT | DEBUG | [main] |  | org.hibernate.SQL | create table HotelType (id integer generated by default as identity, name varchar(255), primary key (id))
+2015-09-13_20:21:31.686/CAT | DEBUG | [main] |  | org.hibernate.SQL | create table Location (id integer generated by default as identity, name varchar(255), primary key (id))
+2015-09-13_20:21:31.687/CAT | DEBUG | [main] |  | org.hibernate.SQL | create table RoomType (id integer generated by default as identity, description clob not null, maxNumberOfPeople integer, name varchar(50) not null, roomRatePerDay float, hotelID integer, primary key (id))
+2015-09-13_20:21:31.689/CAT | DEBUG | [main] |  | org.hibernate.SQL | alter table Booking add constraint FK_ch24wpanv4gpkwelq8y13vbc1 foreign key (guestID) references Guest
+2015-09-13_20:21:31.704/CAT | DEBUG | [main] |  | org.hibernate.SQL | alter table Booking add constraint FK_qv2x12ty2ph53wntuogwlqwgp foreign key (hotelID) references Hotel
+2015-09-13_20:21:31.706/CAT | DEBUG | [main] |  | org.hibernate.SQL | alter table BookingRoom add constraint FK_gaow3m4bxr24yanptd22k18k foreign key (bookingID) references Booking
+2015-09-13_20:21:31.710/CAT | DEBUG | [main] |  | org.hibernate.SQL | alter table BookingRoom add constraint FK_g7ai7liwv1n8jkmcn7b6n2as3 foreign key (roomTypeID) references RoomType
+2015-09-13_20:21:31.712/CAT | DEBUG | [main] |  | org.hibernate.SQL | alter table Hotel add constraint FK_hmxgawm77d76arvjrgsdw0vx1 foreign key (hotelTypeID) references HotelType
+2015-09-13_20:21:31.715/CAT | DEBUG | [main] |  | org.hibernate.SQL | alter table Hotel add constraint FK_q9dveb5rqqve2j100jbgaip4u foreign key (locatedInID) references Location
+2015-09-13_20:21:31.720/CAT | DEBUG | [main] |  | org.hibernate.SQL | alter table RoomType add constraint FK_j45xvfq1lysrjqngs57rq13ga foreign key (hotelID) references Hotel
+2015-09-13_20:21:31.725/CAT | INFO  | [main] |  | org.hibernate.tool.hbm2ddl.SchemaExport | HHH000230: Schema export complete
+2015-09-13_20:21:31.725/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing hbm.xml files
+2015-09-13_20:21:31.725/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Process annotated classes
+2015-09-13_20:21:31.725/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing fk mappings (*ToOne and JoinedSubclass)
+2015-09-13_20:21:31.726/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing extends queue
+2015-09-13_20:21:31.726/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing extends queue
+2015-09-13_20:21:31.726/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing collection mappings
+2015-09-13_20:21:31.726/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing native query and ResultSetMapping mappings
+2015-09-13_20:21:31.726/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing association property references
+2015-09-13_20:21:31.726/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Creating tables' unique integer identifiers
+2015-09-13_20:21:31.726/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing foreign key constraints
+2015-09-13_20:21:31.726/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.guest.Guest
+2015-09-13_20:21:31.726/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.hotel.Hotel
+2015-09-13_20:21:31.727/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.booking.Booking
+2015-09-13_20:21:31.727/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.hotel.RoomType
+2015-09-13_20:21:31.727/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.hotel.HotelType
+2015-09-13_20:21:31.727/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.location.Location
+2015-09-13_20:21:31.727/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.hotel.Hotel
+2015-09-13_20:21:31.728/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.728/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.728/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.728/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.729/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.729/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.729/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.729/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing hbm.xml files
+2015-09-13_20:21:31.729/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Process annotated classes
+2015-09-13_20:21:31.729/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing fk mappings (*ToOne and JoinedSubclass)
+2015-09-13_20:21:31.729/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing extends queue
+2015-09-13_20:21:31.730/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing extends queue
+2015-09-13_20:21:31.730/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing collection mappings
+2015-09-13_20:21:31.730/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing native query and ResultSetMapping mappings
+2015-09-13_20:21:31.730/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing association property references
+2015-09-13_20:21:31.730/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Creating tables' unique integer identifiers
+2015-09-13_20:21:31.730/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Processing foreign key constraints
+2015-09-13_20:21:31.730/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.guest.Guest
+2015-09-13_20:21:31.730/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.hotel.Hotel
+2015-09-13_20:21:31.731/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.booking.Booking
+2015-09-13_20:21:31.731/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.hotel.RoomType
+2015-09-13_20:21:31.731/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.hotel.HotelType
+2015-09-13_20:21:31.731/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.location.Location
+2015-09-13_20:21:31.731/CAT | DEBUG | [main] |  | org.hibernate.cfg.Configuration | Resolving reference to class: com.crimore.domain.hotel.Hotel
+2015-09-13_20:21:31.732/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.732/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.732/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.732/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.733/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.733/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.733/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.734/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.734/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.734/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.734/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.735/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.735/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.735/CAT | DEBUG | [main] |  | org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory | Setting dialect [org.hibernate.dialect.H2Dialect]
+2015-09-13_20:21:31.736/CAT | DEBUG | [main] |  | org.hibernate.internal.SessionFactoryImpl | Checking 0 named HQL queries
+2015-09-13_20:21:31.736/CAT | DEBUG | [main] |  | org.hibernate.internal.SessionFactoryImpl | Checking 0 named SQL queries
+2015-09-13_20:21:31.747/CAT | DEBUG | [main] |  | org.hibernate.stat.internal.StatisticsInitiator | Statistics initialized [enabled=false]
+2015-09-13_20:21:31.806/CAT | DEBUG | [main] |  | org.hibernate.ejb.internal.EntityManagerFactoryRegistry | Initializing EntityManagerFactoryRegistry : org.hibernate.ejb.internal.EntityManagerFactoryRegistry@79fbd25a
+2015-09-13_20:21:31.807/CAT | DEBUG | [main] |  | org.hibernate.ejb.internal.EntityManagerFactoryRegistry | Registering EntityManagerFactory: test 
+2015-09-13_20:21:31.873/CAT | INFO  | [main] |  | com.crimore.JPATest | After Sucessfully insertion 
+2015-09-13_20:21:31.873/CAT | DEBUG | [main] |  | org.hibernate.engine.transaction.spi.AbstractTransactionImpl | begin
+2015-09-13_20:21:31.874/CAT | DEBUG | [main] |  | org.hibernate.engine.jdbc.internal.LogicalConnectionImpl | Obtaining JDBC connection
+2015-09-13_20:21:31.874/CAT | DEBUG | [main] |  | org.hibernate.engine.jdbc.internal.LogicalConnectionImpl | Obtained JDBC connection
+2015-09-13_20:21:31.874/CAT | DEBUG | [main] |  | org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction | initial autocommit status: true
+2015-09-13_20:21:31.874/CAT | DEBUG | [main] |  | org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction | disabling autocommit
+2015-09-13_20:21:31.879/CAT | DEBUG | [main] |  | org.hibernate.ejb.AbstractEntityManagerImpl | Mark transaction for rollback
+2015-09-13_20:21:31.879/CAT | DEBUG | [main] |  | org.hibernate.engine.transaction.spi.AbstractTransactionImpl | rolling back
+2015-09-13_20:21:31.880/CAT | DEBUG | [main] |  | org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction | rolled JDBC Connection
+2015-09-13_20:21:31.880/CAT | DEBUG | [main] |  | org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction | re-enabling autocommit
+2015-09-13_20:21:31.882/CAT | DEBUG | [main] |  | org.hibernate.engine.transaction.spi.AbstractTransactionImpl | begin
+2015-09-13_20:21:31.882/CAT | DEBUG | [main] |  | org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction | initial autocommit status: true
+2015-09-13_20:21:31.883/CAT | DEBUG | [main] |  | org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction | disabling autocommit
+2015-09-13_20:21:31.883/CAT | DEBUG | [main] |  | org.hibernate.ejb.AbstractEntityManagerImpl | Mark transaction for rollback
+2015-09-13_20:21:31.883/CAT | DEBUG | [main] |  | org.hibernate.engine.transaction.spi.AbstractTransactionImpl | rolling back
+2015-09-13_20:21:31.883/CAT | DEBUG | [main] |  | org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction | rolled JDBC Connection
+2015-09-13_20:21:31.883/CAT | DEBUG | [main] |  | org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction | re-enabling autocommit
+2015-09-13_20:21:31.883/CAT | INFO  | [main] |  | com.crimore.JPATest | After Sucessfully modification 
+2015-09-13_20:21:31.883/CAT | DEBUG | [main] |  | org.hibernate.engine.transaction.spi.AbstractTransactionImpl | begin
+2015-09-13_20:21:31.884/CAT | DEBUG | [main] |  | org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction | initial autocommit status: true
+2015-09-13_20:21:31.884/CAT | DEBUG | [main] |  | org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction | disabling autocommit
+2015-09-13_20:21:31.885/CAT | DEBUG | [main] |  | org.hibernate.engine.transaction.spi.AbstractTransactionImpl | rolling back
+2015-09-13_20:21:31.885/CAT | DEBUG | [main] |  | org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction | rolled JDBC Connection
+2015-09-13_20:21:31.885/CAT | DEBUG | [main] |  | org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction | re-enabling autocommit
+2015-09-13_20:21:31.886/CAT | INFO  | [main] |  | com.crimore.JPATest | After Sucessfully deletion 
+2015-09-13_20:22:08.928/CAT | INFO  | [main] |  | org.hibernate.annotations.common.Version | HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-09-13_20:22:08.950/CAT | INFO  | [main] |  | org.hibernate.Version | HHH000412: Hibernate Core {4.2.8.Final}
+2015-09-13_20:22:08.954/CAT | INFO  | [main] |  | org.hibernate.cfg.Environment | HHH000206: hibernate.properties not found
+2015-09-13_20:22:08.957/CAT | INFO  | [main] |  | org.hibernate.cfg.Environment | HHH000021: Bytecode provider name : javassist
+2015-09-13_20:22:09.374/CAT | INFO  | [main] |  | org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl | HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-09-13_20:22:09.380/CAT | INFO  | [main] |  | org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl | HHH000115: Hibernate connection pool size: 1
+2015-09-13_20:22:09.380/CAT | INFO  | [main] |  | org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl | HHH000006: Autocommit mode: true
+2015-09-13_20:22:09.381/CAT | INFO  | [main] |  | org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl | HHH000401: using driver [org.h2.Driver] at URL [jdbc:h2:./booking;DATABASE_TO_UPPER=false]
+2015-09-13_20:22:09.381/CAT | INFO  | [main] |  | org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl | HHH000046: Connection properties: {user=sa, autocommit=true, release_mode=auto}
+2015-09-13_20:22:09.463/CAT | INFO  | [main] |  | org.hibernate.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2015-09-13_20:22:09.478/CAT | INFO  | [main] |  | org.hibernate.engine.jdbc.internal.LobCreatorBuilder | HHH000422: Disabling contextual LOB creation as connection was null
+2015-09-13_20:22:09.777/CAT | INFO  | [main] |  | org.hibernate.engine.transaction.internal.TransactionFactoryInitiator | HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2015-09-13_20:22:09.785/CAT | INFO  | [main] |  | org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory | HHH000397: Using ASTQueryTranslatorFactory
+2015-09-13_20:22:10.073/CAT | INFO  | [main] |  | org.hibernate.tuple.PojoInstantiator | HHH000182: No default (no-argument) constructor for class: com.crimore.domain.guest.Guest (class must be instantiated by Interceptor)
+2015-09-13_20:22:10.107/CAT | INFO  | [main] |  | org.hibernate.tuple.PojoInstantiator | HHH000182: No default (no-argument) constructor for class: com.crimore.domain.booking.Booking (class must be instantiated by Interceptor)
+2015-09-13_20:22:10.239/CAT | INFO  | [main] |  | org.hibernate.tool.hbm2ddl.SchemaExport | HHH000227: Running hbm2ddl schema export
+2015-09-13_20:22:10.704/CAT | INFO  | [main] |  | org.hibernate.tool.hbm2ddl.SchemaExport | HHH000230: Schema export complete
+2015-09-13_20:22:10.850/CAT | INFO  | [main] |  | com.crimore.JPATest | After Sucessfully insertion 
+2015-09-13_20:22:10.858/CAT | INFO  | [main] |  | com.crimore.JPATest | After Sucessfully modification 
+2015-09-13_20:22:10.859/CAT | INFO  | [main] |  | com.crimore.JPATest | After Sucessfully deletion 
+2015-09-13_20:22:47.959/CAT | INFO  | [main] |  | org.hibernate.annotations.common.Version | HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-09-13_20:22:47.977/CAT | INFO  | [main] |  | org.hibernate.Version | HHH000412: Hibernate Core {4.2.8.Final}
+2015-09-13_20:22:47.981/CAT | INFO  | [main] |  | org.hibernate.cfg.Environment | HHH000206: hibernate.properties not found
+2015-09-13_20:22:47.983/CAT | INFO  | [main] |  | org.hibernate.cfg.Environment | HHH000021: Bytecode provider name : javassist
+2015-09-13_20:22:48.420/CAT | INFO  | [main] |  | org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl | HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-09-13_20:22:48.428/CAT | INFO  | [main] |  | org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl | HHH000115: Hibernate connection pool size: 1
+2015-09-13_20:22:48.428/CAT | INFO  | [main] |  | org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl | HHH000006: Autocommit mode: true
+2015-09-13_20:22:48.429/CAT | INFO  | [main] |  | org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl | HHH000401: using driver [org.h2.Driver] at URL [jdbc:h2:./booking;DATABASE_TO_UPPER=false]
+2015-09-13_20:22:48.430/CAT | INFO  | [main] |  | org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl | HHH000046: Connection properties: {user=sa, autocommit=true, release_mode=auto}
+2015-09-13_20:22:48.513/CAT | INFO  | [main] |  | org.hibernate.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2015-09-13_20:22:48.531/CAT | INFO  | [main] |  | org.hibernate.engine.jdbc.internal.LobCreatorBuilder | HHH000422: Disabling contextual LOB creation as connection was null
+2015-09-13_20:22:48.842/CAT | INFO  | [main] |  | org.hibernate.engine.transaction.internal.TransactionFactoryInitiator | HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2015-09-13_20:22:48.854/CAT | INFO  | [main] |  | org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory | HHH000397: Using ASTQueryTranslatorFactory
+2015-09-13_20:22:49.159/CAT | INFO  | [main] |  | org.hibernate.tuple.PojoInstantiator | HHH000182: No default (no-argument) constructor for class: com.crimore.domain.guest.Guest (class must be instantiated by Interceptor)
+2015-09-13_20:22:49.198/CAT | INFO  | [main] |  | org.hibernate.tuple.PojoInstantiator | HHH000182: No default (no-argument) constructor for class: com.crimore.domain.booking.Booking (class must be instantiated by Interceptor)
+2015-09-13_20:22:49.333/CAT | INFO  | [main] |  | org.hibernate.tool.hbm2ddl.SchemaExport | HHH000227: Running hbm2ddl schema export
+2015-09-13_20:22:49.783/CAT | INFO  | [main] |  | org.hibernate.tool.hbm2ddl.SchemaExport | HHH000230: Schema export complete
+2015-09-13_20:22:49.931/CAT | INFO  | [main] |  | com.crimore.JPATest | main starting 
+2015-09-13_20:22:49.931/CAT | INFO  | [main] |  | com.crimore.JPATest | After Sucessfully insertion 
+2015-09-13_20:22:49.942/CAT | INFO  | [main] |  | com.crimore.JPATest | After Sucessfully modification 
+2015-09-13_20:22:49.943/CAT | INFO  | [main] |  | com.crimore.JPATest | After Sucessfully deletion 
+2015-09-13_20:24:30.980/CAT | INFO  | [main] |  | org.hibernate.annotations.common.Version | HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-09-13_20:24:30.999/CAT | INFO  | [main] |  | org.hibernate.Version | HHH000412: Hibernate Core {4.2.8.Final}
+2015-09-13_20:24:31.002/CAT | INFO  | [main] |  | org.hibernate.cfg.Environment | HHH000206: hibernate.properties not found
+2015-09-13_20:24:31.006/CAT | INFO  | [main] |  | org.hibernate.cfg.Environment | HHH000021: Bytecode provider name : javassist
+2015-09-13_20:24:31.444/CAT | INFO  | [main] |  | org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl | HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-09-13_20:24:31.453/CAT | INFO  | [main] |  | org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl | HHH000115: Hibernate connection pool size: 1
+2015-09-13_20:24:31.453/CAT | INFO  | [main] |  | org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl | HHH000006: Autocommit mode: true
+2015-09-13_20:24:31.454/CAT | INFO  | [main] |  | org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl | HHH000401: using driver [org.h2.Driver] at URL [jdbc:h2:./booking;DATABASE_TO_UPPER=false]
+2015-09-13_20:24:31.454/CAT | INFO  | [main] |  | org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl | HHH000046: Connection properties: {user=sa, autocommit=true, release_mode=auto}
+2015-09-13_20:24:31.528/CAT | INFO  | [main] |  | org.hibernate.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2015-09-13_20:24:31.544/CAT | INFO  | [main] |  | org.hibernate.engine.jdbc.internal.LobCreatorBuilder | HHH000422: Disabling contextual LOB creation as connection was null
+2015-09-13_20:24:31.845/CAT | INFO  | [main] |  | org.hibernate.engine.transaction.internal.TransactionFactoryInitiator | HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2015-09-13_20:24:31.856/CAT | INFO  | [main] |  | org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory | HHH000397: Using ASTQueryTranslatorFactory
+2015-09-13_20:24:32.164/CAT | INFO  | [main] |  | org.hibernate.tuple.PojoInstantiator | HHH000182: No default (no-argument) constructor for class: com.crimore.domain.guest.Guest (class must be instantiated by Interceptor)
+2015-09-13_20:24:32.195/CAT | INFO  | [main] |  | org.hibernate.tuple.PojoInstantiator | HHH000182: No default (no-argument) constructor for class: com.crimore.domain.booking.Booking (class must be instantiated by Interceptor)
+2015-09-13_20:24:32.316/CAT | INFO  | [main] |  | org.hibernate.tool.hbm2ddl.SchemaExport | HHH000227: Running hbm2ddl schema export
+2015-09-13_20:24:32.755/CAT | INFO  | [main] |  | org.hibernate.tool.hbm2ddl.SchemaExport | HHH000230: Schema export complete
+2015-09-13_20:24:32.894/CAT | INFO  | [main] |  | com.crimore.JPATest | main starting 
+2015-09-13_20:24:32.894/CAT | INFO  | [main] |  | com.crimore.JPATest | After Sucessfully insertion 
+2015-09-13_20:24:32.903/CAT | INFO  | [main] |  | com.crimore.JPATest | After Sucessfully modification 
+2015-09-13_20:24:32.905/CAT | INFO  | [main] |  | com.crimore.JPATest | After Sucessfully deletion 
