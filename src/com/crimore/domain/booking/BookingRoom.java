@@ -1,5 +1,6 @@
 package com.crimore.domain.booking;
 
+import com.crimore.domain.guest.Guest;
 import com.crimore.domain.hotel.RoomType;
 
 import javax.persistence.*;
@@ -7,6 +8,10 @@ import java.util.Objects;
 
 /**
  * Created by cchingwenje on 2015-09-13.
+ */
+
+/**
+ * link table for guest, room, booking
  */
 
 @Entity
@@ -31,14 +36,18 @@ public class BookingRoom {
 
     @OneToOne
     @JoinColumn(name = "bookingID")
-    private Booking bookingID;
+    private Booking booking;
+    @OneToOne
+    @JoinColumn(name = "guestID")
+    private Guest guest;
 
     public BookingRoom() {
     }
 
-    public BookingRoom(RoomType roomType, Booking bookingID) {
+    public BookingRoom(RoomType roomType, Booking booking, Guest guest) {
         this.roomType = roomType;
-        this.bookingID = bookingID;
+        this.booking = booking;
+        this.guest = guest;
     }
 
     public void setId(Integer id) {
@@ -53,12 +62,20 @@ public class BookingRoom {
         this.roomType = roomType;
     }
 
-    public Booking getBookingID() {
-        return bookingID;
+    public Booking getBooking() {
+        return booking;
     }
 
-    public void setBookingID(Booking bookingID) {
-        this.bookingID = bookingID;
+    public void setBooking(Booking bookingID) {
+        this.booking = bookingID;
+    }
+
+    public Guest getGuest() {
+        return guest;
+    }
+
+    public void setGuest(Guest guest) {
+        this.guest = guest;
     }
 
     @Override
@@ -67,11 +84,12 @@ public class BookingRoom {
         if (!(o instanceof BookingRoom)) return false;
         BookingRoom that = (BookingRoom) o;
         return Objects.equals(roomType, that.roomType) &&
-        Objects.equals(bookingID, that.bookingID);
+        Objects.equals(booking, that.booking) &&
+                Objects.equals(guest, that.guest);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(roomType, bookingID);
+        return Objects.hash(roomType, booking, guest);
     }
 }

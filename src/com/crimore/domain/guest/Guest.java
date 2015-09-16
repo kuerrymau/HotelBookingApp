@@ -31,6 +31,16 @@ public class Guest {
     @Column(length = 10)
     private String telephoneNumber;
 
+    private String debitCardNumber;
+
+    private DebitCardType debitCardType;
+
+    private String debitCardName;
+
+    private int debitCardExpiryMonth;
+
+    private int debitCardExpiryYear;
+
     public Guest(){
 
     }
@@ -78,6 +88,46 @@ public class Guest {
 
     public void setTelephoneNumber(String telephoneNumber) {
         this.telephoneNumber = telephoneNumber;
+    }
+
+    public String getDebitCardNumber() {
+        return debitCardNumber;
+    }
+
+    public void setDebitCardNumber(String debitCardNumber) {
+        this.debitCardNumber = debitCardNumber;
+    }
+
+    public DebitCardType getDebitCardType() {
+        return debitCardType;
+    }
+
+    public void setDebitCardType(DebitCardType debitCardType) {
+        this.debitCardType = debitCardType;
+    }
+
+    public String getDebitCardName() {
+        return debitCardName;
+    }
+
+    public void setDebitCardName(String debitCardName) {
+        this.debitCardName = debitCardName;
+    }
+
+    public int getDebitCardExpiryMonth() {
+        return debitCardExpiryMonth;
+    }
+
+    public void setDebitCardExpiryMonth(int debitCardExpiryMonth) {
+        this.debitCardExpiryMonth = debitCardExpiryMonth;
+    }
+
+    public int getDebitCardExpiryYear() {
+        return debitCardExpiryYear;
+    }
+
+    public void setDebitCardExpiryYear(int debitCardExpiryYear) {
+        this.debitCardExpiryYear = debitCardExpiryYear;
     }
 
     @Override

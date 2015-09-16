@@ -9,6 +9,7 @@ import com.crimore.domain.hotel.RoomType;
 import com.crimore.domain.location.Location;
 import com.crimore.entitymanager.EntityManagerImpl;
 import com.crimore.service.booking.BookingManager;
+import com.crimore.service.booking.ReservationHistory;
 import org.apache.log4j.Logger;
 
 import javax.persistence.EntityManager;
@@ -24,7 +25,7 @@ public class BookingManagerImpl implements BookingManager {
     private EntityManager entityManager = EntityManagerImpl.getEntityManager();
 
     @Override
-    public Booking makeBooking(Hotel hotel, Date arrivalDate, Date departureDate, Guest guest, RoomType roomType) {
+    public Booking makeABooking(Hotel hotel, Date arrivalDate, Date departureDate, Guest guest, RoomType roomType) {
         Booking booking = new Booking(hotel, arrivalDate, departureDate, guest);
         try {
 
@@ -32,7 +33,9 @@ public class BookingManagerImpl implements BookingManager {
             entityManager.persist(booking);
             entityManager.getTransaction().commit();
 
-            makeBookingRoom(roomType, booking);
+            makeBookingRoom(roomType, booking, guest);
+            ReservationHistory.reservationsForGuest.add(booking);
+
         } catch (Exception e) {
             log.error("Exception occurred creating booking, " + e);
             entityManager.getTransaction().rollback();
@@ -42,13 +45,14 @@ public class BookingManagerImpl implements BookingManager {
     }
 
     @Override
-    public void deleteBooking(Booking booking) {
+    public void cancelABooking(Booking booking) {
         try {
             entityManager.getTransaction().begin();
             entityManager.remove(booking);
             entityManager.getTransaction().commit();
 
             deleteBookingRoom(booking);
+            ReservationHistory.reservationsForGuest.remove(booking);
         } catch (Exception e) {
             log.error("Exception occurred deleting booking, " + e);
             entityManager.getTransaction().rollback();
@@ -82,8 +86,8 @@ public class BookingManagerImpl implements BookingManager {
     }
 
     @Override
-    public BookingRoom makeBookingRoom(RoomType roomType, Booking booking) {
-        BookingRoom bookingRoom = new BookingRoom(roomType, booking);
+    public BookingRoom makeBookingRoom(RoomType roomType, Booking booking, Guest guest) {
+        BookingRoom bookingRoom = new BookingRoom(roomType, booking, guest);
         try {
             entityManager.getTransaction().begin();
             entityManager.persist(bookingRoom);

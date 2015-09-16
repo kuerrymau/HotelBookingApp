@@ -15,15 +15,15 @@ import java.util.List;
  * Created by cchingwenje on 2015-09-13.
  */
 public interface BookingManager {
-    Booking makeBooking(Hotel hotel, Date arrivalDate, Date departureDate, Guest guest, RoomType roomType);
+    Booking makeABooking(Hotel hotel, Date arrivalDate, Date departureDate, Guest guest, RoomType roomType);
 
-    void deleteBooking(Booking booking);
+    void cancelABooking(Booking booking);
 
     void updateBooking(Booking booking);
 
     void deleteBookingRoom(Booking booking);
 
-    BookingRoom makeBookingRoom(RoomType roomType, Booking booking);
+    BookingRoom makeBookingRoom(RoomType roomType, Booking booking, Guest guest);
 
     Hotel createHotel(String name, Location location, HotelType hotelType);
 

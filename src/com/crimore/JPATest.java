@@ -10,8 +10,6 @@ import com.crimore.service.booking.BookingManager;
 import com.crimore.service.booking.impl.BookingManagerImpl;
 import org.apache.log4j.Logger;
 
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -49,13 +47,13 @@ public class JPATest {
 
         RoomType roomType = bm.createRoomType("Exclusive Grand", hotel, 5.00f, 2);
 
-        Booking booking = bm.makeBooking(hotel, new Date(), new Date(), guest, roomType);
+        Booking booking = bm.makeABooking(hotel, new Date(), new Date(), guest, roomType);
 
         assertNotNull("Not found", booking);
 
         guest.setFirstName("Cremora");
 
-        booking = bm.makeBooking(hotel, new Date(), new Date(), guest, roomType);
+        booking = bm.makeABooking(hotel, new Date(), new Date(), guest, roomType);
 
         bm.updateBooking(booking);
 

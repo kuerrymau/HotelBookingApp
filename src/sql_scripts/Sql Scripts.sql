@@ -3,7 +3,12 @@ create table "Guest" (
 	"firstName" VARCHAR(64) NOT NULL DEFAULT '',
 	"surname" VARCHAR(64) NOT NULL DEFAULT '',
 	"emailAddress" VARCHAR(64) NOT NULL DEFAULT '',
-	"telephoneNumber" VARCHAR(64) NOT NULL DEFAULT ''
+	"telephoneNumber" VARCHAR(64) NOT NULL DEFAULT '',
+	"debitCardNumber" VARCHAR(64) NULL DEFAULT '',
+	"debitCardType" VARCHAR(64) NULL DEFAULT '',
+	"debitCardName" VARCHAR(64) NULL DEFAULT '',
+	"debitCardExpiryMonth" INT(11) NULL DEFAULT '-1',
+	"debitCardExpiryYear" INT(11) NULL DEFAULT '-1'
 );
 
 create table "Location" (
